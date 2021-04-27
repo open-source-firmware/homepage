@@ -1,0 +1,12 @@
+[class*="aspect-ratio-"] {
+  display: block;
+  position: relative;
+}
+
+[class*="aspect-ratio-"] > * {
+  display: block;
+}
+
+.aspect-ratio-square {
+  padding-top: 100%;
+}

@@ -1,0 +1,34 @@
+/*
+  SWITCHER
+  Set the threshold with '--switcher-threshold' and you have a
+  layout that switches from horizontal to vertical at the given
+  threshold. Adjust the gap if needed with '--switcher-gap'.
+  Fully responsive without media queries. To adjust the vertical
+  gap differently to the horizontal gap use '--switcher-gap-vertical'.
+*/
+
+.switcher {
+  > * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: var(--switcher-justification, flex-start);
+    /* ↓ Multiply by -1 to make negative */
+    margin: -0.5rem;
+    margin: calc(
+        var(--switcher-gap-vertical, var(--switcher-gap, 1rem)) / 2 * -1
+      )
+      calc(var(--switcher-gap, 1rem) / 2 * -1);
+  }
+
+  > * > * {
+    flex-grow: 1;
+    flex-basis: calc(
+      (var(--switcher-threshold, 30rem) - (100% - var(--switcher-gap, 1rem))) *
+        999
+    );
+    /* ↓ Half the value to each element, combining to make the whole */
+    margin: 0.5rem;
+    margin: calc(var(--switcher-gap-vertical, var(--switcher-gap, 1rem)) / 2)
+      calc(var(--switcher-gap, 1rem) / 2);
+  }
+}

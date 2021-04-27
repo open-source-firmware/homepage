@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Documents",
+      "url": "/documents/"
+    },
+    {
+      "text": "Press Kit",
+      "url": "/presskit/"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.plain-html {
+  h2 {
+    font-size: get-size("0");
+
+    @include media-query("md") {
+      font-size: get-size("700");
+    }
+
+    @include media-query("lg") {
+      font-size: get-size("800");
+    }
+  }
+
+  h3 {
+    font-size: get-size("500");
+    --flow-space: #{get-size("600")};
+
+    @include media-query("md") {
+      font-size: get-size("550");
+    }
+
+    @include media-query("lg") {
+      font-size: get-size("600");
+    }
+  }
+
+  h4 {
+    font-size: get-size("500");
+    --flow-space: #{get-size("600")};
+
+    @include media-query("lg") {
+      font-size: get-size("550");
+    }
+  }
+
+  p {
+    font-size: get-size("500");
+  }
+
+  &--on-primary {
+    color: get-color("white");
+  }
+}

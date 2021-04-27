@@ -1,0 +1,17 @@
+.panel {
+  $block: &;
+  padding: get-size("600");
+  //padding-right plus .5rem from the first grid column
+  padding-right: calc(#{get-size("600")} + 0.5rem);
+
+  &__content {
+    max-width: 60rem;
+    #{$block}__headline + * {
+      margin-top: 1.75rem;
+    }
+  }
+
+  @include media-query("md") {
+    padding: get-size("700");
+  }
+}

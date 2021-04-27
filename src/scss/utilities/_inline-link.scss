@@ -1,0 +1,4 @@
+.inline-link {
+  text-decoration: underline;
+  @include apply-utility("weight", "semi-bold");
+}

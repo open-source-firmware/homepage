@@ -1,0 +1,18 @@
+footer {
+  padding: get-size("300");
+  display: flex;
+  margin-top: 0;
+  text-align: left;
+  flex-direction: column;
+
+  a:focus {
+    border: 2px dashed get-color("secondary");
+    padding: get-size("200");
+  }
+  @include media-query("md") {
+    margin-top: 25vh;
+    text-align: right;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

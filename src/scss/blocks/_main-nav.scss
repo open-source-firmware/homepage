@@ -1,0 +1,42 @@
+.main-nav {
+  margin-left: 0;
+  font-weight: bold;
+  ul {
+    list-style-type: none;
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+
+    > * {
+      margin-top: get-size("500");
+    }
+
+    li:hover a {
+      text-decoration: 2px get-color("primary") underline;
+    }
+    a:focus {
+      outline: 2px dashed get-color("primary");
+      outline-offset: get-size("200");
+    }
+  }
+
+  @include media-query("md") {
+    margin-left: 5.625rem;
+
+    ul {
+      display: block;
+      > * + * {
+        margin-top: get-size("500");
+      }
+    }
+  }
+
+  @include media-query("lg") {
+    margin-left: 5.625rem;
+  }
+
+  @include media-query("xl") {
+    // plus 5rem
+    margin-left: 10.625rem;
+  }
+}

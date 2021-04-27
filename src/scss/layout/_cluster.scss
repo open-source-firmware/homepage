@@ -1,0 +1,25 @@
+.cluster {
+  overflow: hidden;
+
+  > * {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: -(get-size("200"));
+  }
+
+  > * > * {
+    margin: get-size("200");
+  }
+
+  @include media-query("md") {
+    > * {
+      margin: -(get-size("350"));
+    }
+
+    > * > * {
+      margin: get-size("350");
+    }
+  }
+}

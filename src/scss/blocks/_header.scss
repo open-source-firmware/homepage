@@ -1,0 +1,17 @@
+.header {
+  position: static;
+  border-top: 3px solid get-color("white");
+  z-index: 9;
+
+  @include media-query("md") {
+    position: sticky;
+    border: none;
+    //logo-height plus grid-gap
+    top: calc(7.625rem + 3.5rem);
+  }
+
+  @include media-query("xl") {
+    //changes height of the logo
+    top: calc(12.625rem + 3.5rem);
+  }
+}

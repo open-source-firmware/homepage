@@ -1,0 +1,36 @@
+:root {
+  --logo-start-height: 7.625rem;
+  --deco-border-start-width: 165vw;
+
+  @include media-query("md") {
+    --logo-start-height: 20rem;
+    --deco-border-start-width: 120vw;
+  }
+
+  @include media-query("lg") {
+    --logo-start-height: 26rem;
+    --deco-border-start-width: 130vw;
+  }
+
+  @include media-query("xl") {
+    --deco-border-start-width: 110vw;
+  }
+}
+
+.js-active {
+  .logo {
+    height: var(--logo-start-height);
+
+    @include media-query("xl") {
+      transform: translateX(10rem);
+    }
+    //transition: height 0.6s ease-out;
+  }
+  .grid {
+    grid-template-rows: var(--logo-start-height);
+  }
+  .triangle {
+    border-width: var(--deco-border-start-width) var(--deco-border-start-width)
+      0 0;
+  }
+}

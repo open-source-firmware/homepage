@@ -1,0 +1,87 @@
+@import "config";
+@import "../../node_modules/gorko/gorko.scss";
+@import "reset";
+@import "typography";
+
+html {
+  font-size: 100%;
+  @include media-query("xl") {
+    font-size: 125%;
+  }
+}
+
+body {
+  @include apply-utility("font", "base");
+  @include apply-utility("color", "black");
+  @include apply-utility("bg", "light-gray");
+  @include apply-utility("weight", "regular");
+  line-height: 1.5;
+  overflow-x: hidden;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 1358' fill='none'><path opacity='0.1' d='M1440 430V0L0 1440V1870L1440 430Z' fill='black'/></svg>");
+  background-repeat: no-repeat;
+  background-position: 100% bottom;
+  background-size: contain;
+}
+
+.triangle {
+  --deco-border-width: 165vw;
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: var(--deco-border-width) var(--deco-border-width) 0 0;
+  border-color: get-color("secondary") transparent transparent transparent;
+  //transition: border-width 0.3s ease-out;
+
+  @include media-query("md") {
+    --deco-border-width: 70vw;
+  }
+  @include media-query("lg") {
+    --deco-border-width: 50vw;
+  }
+}
+
+h2,
+h3,
+h4 {
+  @include apply-utility("font", "head");
+  @include apply-utility("weight", "black");
+  @include apply-utility("leading", "flat");
+  @include apply-utility("text", "650");
+  text-transform: uppercase;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
+}
+
+//Utilities
+@import "utilities/aspect-ratio";
+@import "utilities/inline-link";
+@import "utilities/js-is-scrolltop";
+@import "utilities/uppercase";
+
+//Layout
+@import "layout/auto-grid";
+@import "layout/cluster";
+@import "layout/flow";
+@import "layout/main-layout-grid";
+
+//Blocks
+@import "blocks/button";
+@import "blocks/footer";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/main-nav";
+@import "blocks/panel";
+@import "blocks/polaroid";
+@import "blocks/title-heading";
+@import "blocks/plain-html";

@@ -1,0 +1,28 @@
+.logo {
+  padding-top: 1.75rem;
+  position: static;
+  top: 0;
+  // height: 120%;
+  z-index: 9;
+  align-self: top;
+
+  @include media-query("md") {
+    position: sticky;
+    height: 7.625rem;
+    //transition: height 0.3s ease-out;
+
+    h1 {
+      height: 100%;
+      display: inline-block;
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
+
+  @include media-query("xl") {
+    //7.625rem + 5rem
+    height: 12.625rem;
+  }
+}

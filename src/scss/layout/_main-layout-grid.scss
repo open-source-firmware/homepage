@@ -1,0 +1,75 @@
+.grid {
+  position: relative;
+  display: grid;
+  gap: get-size("700") 0;
+
+  grid-template-columns: 0.5rem //lücke .5rem dann dem panel .25rem
+    1rem //vorher nur 17.5rem
+    1fr //lücke
+    1rem 0.5rem; //lücke
+
+  .logo {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  header {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  main {
+    grid-column-start: 2;
+    grid-column-end: -1;
+  }
+
+  footer {
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  @include media-query("md") {
+    grid-template-columns: 0.5rem //lücke .5rem dann dem panel .25rem
+      minmax(5rem, 15.5rem) //vorher nur 17.5rem
+      0.5rem //lücke
+      minmax(0, 62.25rem) minmax(1.75rem, 1fr) //lücke
+      minmax(0, 17.5rem) minmax(1.75rem, 1fr); //lücke
+
+    .logo {
+      grid-column-start: 2;
+      grid-column-end: -1;
+    }
+
+    header {
+      grid-column: 2;
+      align-self: start;
+    }
+
+    main {
+      grid-column-start: 4;
+      grid-column-end: -1;
+      padding-bottom: 3rem;
+    }
+
+    footer {
+      grid-column-start: 2;
+      grid-column-end: 7;
+    }
+  }
+
+  @include media-query("lg") {
+    grid-template-columns: minmax(1.75rem, 1fr) //lücke .5rem dann dem panel .25rem
+      minmax(10rem, 17.5rem) //vorher nur 17.5rem
+      1.75rem //lücke
+      minmax(0, 62.25rem) minmax(1.75rem, 1fr) //lücke
+      minmax(0, 17.5rem) minmax(1.75rem, 1fr); //lücke
+  }
+
+  @include media-query("xl") {
+    grid-template-columns: minmax(1.75rem, 1fr) //lücke .5rem dann dem panel .25rem
+      minmax(10rem, 27.5rem) //vorher nur 17.5rem
+      2rem //lücke
+      minmax(0, 62.25rem) minmax(2rem, 1fr) //lücke
+      minmax(0, 27.5rem) minmax(1.75rem, 1fr); //lücke
+  }
+}

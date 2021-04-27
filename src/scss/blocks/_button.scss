@@ -1,0 +1,38 @@
+.button {
+  padding: get-size("400");
+  font-size: get-size("400");
+  @include apply-utility("br", "m");
+  @include apply-utility("weight", "semi-bold");
+  @include apply-utility("leading", "flat");
+  text-transform: uppercase;
+  color: get-color("white");
+  background: get-color("primary");
+
+  &:hover {
+    background: get-color("black");
+    color: get-color("white");
+  }
+
+  &:focus {
+    outline: 2px dashed get-color("white");
+    outline-offset: -5px;
+  }
+
+  &--secondary {
+    background: get-color("secondary");
+  }
+
+  &--white {
+    background: get-color("white");
+    color: get-color("primary");
+
+    &:focus {
+      outline-color: get-color("primary");
+    }
+  }
+
+  @include media-query("md") {
+    padding: get-size("550");
+    font-size: get-size("500");
+  }
+}
