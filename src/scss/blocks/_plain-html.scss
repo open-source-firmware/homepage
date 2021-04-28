@@ -1,6 +1,6 @@
 .plain-html {
   h2 {
-    font-size: get-size("0");
+    font-size: get-size("600");
 
     @include media-query("md") {
       font-size: get-size("700");

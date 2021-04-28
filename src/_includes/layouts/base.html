@@ -9,6 +9,11 @@
     {% include "partials/meta-info.html" %}
     <title>{{ title }}</title>
 
+    <script>
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js-active");
+    </script>
+
     <link
       rel="icon"
       type="image/png"

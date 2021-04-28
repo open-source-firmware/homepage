@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 // Add js class when js is available
-document.body.classList.add("js-active");
+// document.body.classList.add("js-active");
 
 ScrollTrigger.saveStyles(".logo, .triangle");
 ScrollTrigger.matchMedia({
