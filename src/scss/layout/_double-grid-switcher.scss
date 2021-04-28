@@ -1,0 +1,43 @@
+.double-grid-switcher {
+  > * {
+    max-width: 18rem;
+  }
+
+  > * + * {
+    margin-top: 1em;
+  }
+}
+
+@supports (display: grid) and (width: min(10px, 40px)) and
+  (color: var(--primary)) {
+  .double-grid-switcher {
+    --dgs-column-width: Max(
+      clamp(
+        (100% / var(--dgs-column-count-l, 4)) - var(--dgs-gap, 1rem),
+        (var(--dgs-threshold-l, 40rem) - 100%) * 999,
+        (100% / var(--dgs-column-count-m, 2)) - var(--dgs-gap, 1rem)
+      ),
+      clamp(
+        0px,
+        (var(--dgs-threshold-m, 30rem) - 100%) * 999,
+        (100% / var(--dgs-column-count-s, 1)) - var(--dgs-gap, 1rem)
+      )
+    );
+
+    display: grid;
+
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(var(--dgs-column-width), 1fr)
+    );
+
+    gap:
+      /* Vertical Gap */ var(--dgs-gap-vertical, var(--dgs-gap, 1rem))
+      /* Horizontal Gap */ var(--dgs-gap, 1rem);
+
+    > * {
+      max-width: unset;
+      margin: unset;
+    }
+  }
+}
