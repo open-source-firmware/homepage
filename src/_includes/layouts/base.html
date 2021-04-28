@@ -1,16 +1,14 @@
 {% set assetHash = global.random() %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% include "partials/meta-info.html" %}
     <title>{{ title }}</title>
-    <meta
-      name="description"
-      content="The Open-Source Firmware Foundation is a non-profit organisation founded in 2021 with the goal to support various free and open-source firmware projects."
-    />
+
     <link
       rel="icon"
       type="image/png"
@@ -22,7 +20,10 @@
       href="images/favicon/OSFF_favicon_light.svg"
     />
     <style>
-      {% include "css/critical.css" %}
+
+        {% include "css/critical.css" %}
+      {# document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js-active"); #}
     </style>
 
     {# Add facility for pages to delare an array of critical styles #} {% if
@@ -49,11 +50,19 @@
     {% endfor %} {% endif %}
   </head>
   <body>
-    {% include "partials/site-head.html" %}
-    <main tabindex="-1" id="main" class="flow flow-space-400 md:flow-space-600">
-      {% block content %}{% endblock %}
-    </main>
-    {% include "partials/site-foot.html" %} {% if bigLogo %}
+    <div class="triangle" aria-hidden="true"></div>
+    <div class="grid">
+      {% include "partials/site-head.html" %}
+      <main
+        tabindex="-1"
+        id="main"
+        class="flow flow-space-400 md:flow-space-600"
+      >
+        {% block content %}{% endblock %}
+      </main>
+      {% include "partials/site-foot.html" %}
+    </div>
+    {% if bigLogo %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script src="{{'/scripts/main-min.js' | url}}"></script>
