@@ -6,9 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    {% include "partials/meta-info.html" %}
-    <title>{{ title }}</title>
-    {% if bigLogo %}
+    {% include "partials/meta-info.html" %} {% if bigLogo %}
     <script>
       document.documentElement.classList.remove("no-js");
       document.documentElement.classList.add("js-active");

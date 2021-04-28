@@ -1,5 +1,5 @@
 ---
-title: "Open Source Firmware Foundation"
+title: "Imprint"
 layout: "layouts/imprint.html"
 bigLogo: false
 ---
