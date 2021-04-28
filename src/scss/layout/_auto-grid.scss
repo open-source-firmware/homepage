@@ -16,14 +16,34 @@
   }
 }
 
-@supports (display: grid) and (width: min(10px, 5vw)) {
+@supports (display: grid) and (width: Min(10px, 5vw)) {
   .auto-grid {
     // Make sure, the grid-columns are not larger than the parent width
-    --grid-size-save: min(var(--auto-grid-min-size, 13rem), 100%);
+    //--grid-size-save: min(var(--auto-grid-min-size, 13rem), 100%);
 
     display: grid;
+    --dgs-threshold-l: 30rem;
 
-    grid-template-columns: repeat(auto-fit, minmax(var(--grid-size-save), 1fr));
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+        Max(
+          clamp(
+            (100% / var(--dgs-column-count-l, 4)) - var(--dgs-gap, 1rem),
+            (var(--dgs-threshold-l, 40rem) - 100%) * 999,
+            (100% / var(--dgs-column-count-m, 2)) - var(--dgs-gap, 1rem)
+          ),
+          clamp(
+            0px,
+            (var(--dgs-threshold-m, 30rem) - 100%) * 999,
+            (100% / var(--dgs-column-count-s, 1)) - var(--dgs-gap, 1rem)
+          )
+        ),
+        1fr
+      )
+    );
+
+    // minmax(var(--grid-size-save), 1fr));
 
     grid-gap:
         // vertical gap

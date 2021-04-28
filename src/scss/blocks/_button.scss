@@ -2,7 +2,7 @@
   padding: get-size("400");
   font-size: get-size("400");
   @include apply-utility("br", "m");
-  @include apply-utility("weight", "semi-bold");
+  @include apply-utility("weight", "bold");
   @include apply-utility("leading", "flat");
   text-transform: uppercase;
   color: get-color("white");

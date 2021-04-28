@@ -8,11 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
     <title>{{ title }}</title>
-
+    {% if bigLogo %}
     <script>
       document.documentElement.classList.remove("no-js");
       document.documentElement.classList.add("js-active");
     </script>
+    {% endif %}
 
     <link
       rel="icon"
