@@ -1,5 +1,7 @@
 module.exports = (config) => {
   config.addPassthroughCopy("./src/fonts/");
+  config.addPassthroughCopy("./src/slides/");
+
   // Transforms
   const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 

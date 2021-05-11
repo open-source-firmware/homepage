@@ -21,4 +21,5 @@ exports.default = parallel(fonts, images, jscompress, sass);
 
 // This is our watcher task that instructs gulp to watch directories and
 // act accordingly
+
 exports.watch = watcher;
