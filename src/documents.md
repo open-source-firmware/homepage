@@ -13,7 +13,7 @@ Here you find all important public documents related to the Open-Source Firmware
           download="Open-Source-Firmware-Foundation.pdf"
           class="button"
         >
-          Articles of Incooperation 
+          Articles of Incooperation
         </a>
       </div>
 </div>
