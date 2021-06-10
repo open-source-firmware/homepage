@@ -4,18 +4,16 @@ layout: "layouts/plain.html"
 bigLogo: false
 ---
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus,
-eum ipsam. Animi aperiam voluptates sunt nihil, neque, rem dicta nam,
-amet aspernatur consequatur vel rerum fugit voluptas soluta fugiat ad
-expedita nulla? Ipsum expedita mollitia doloremque velit, officia iusto
-cumque suscipit dolorum quaerat architecto asperiores quidem dolore quae
-ratione doloribus. Lorem ipsum dolor sit amet consectetur adipisicing
-elit.?
+Here you find all important public documents related to the Open-Source Firmware Foundation:
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus,
-eum ipsam. Animi aperiam voluptates sunt nihil, neque, rem dicta nam,
-amet aspernatur consequatur vel rerum fugit voluptas soluta fugiat ad
-expedita nulla? Ipsum expedita mollitia doloremque velit, officia iusto
-cumque suscipit dolorum quaerat architecto asperiores quidem dolore quae
-ratione doloribus. Lorem ipsum dolor sit amet consectetur adipisicing
-elit. Impedit, esse?
+<div class="cluster">
+      <div class="cluster-inner">
+        <a
+          href="https://docs.google.com/document/d/1dX0wFXkFBa1EvwZN56FRjRrRWXY1uehj/export?format=pdf"
+          download="Open-Source-Firmware-Foundation.pdf"
+          class="button"
+        >
+          Articles of Incooperation 
+        </a>
+      </div>
+</div>

@@ -35,6 +35,9 @@
 
   p {
     font-size: get-size("500");
+    @include media-query("lg") {
+      font-size: get-size("600");
+    }
   }
 
   &--on-primary {
