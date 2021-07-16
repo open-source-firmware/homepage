@@ -13,7 +13,7 @@ Here you will be able to downdload the entire logo selection of the foundation.
           download="osff_logos.zip"
           class="button"
         >
-          OSFF-Logos <span class="text-350">ZIP-407,2 GB</span>
+          OSFF-Logos <span class="text-350">ZIP-5.8 MB</span>
         </a>
       </div>
 </div>
