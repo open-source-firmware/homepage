@@ -36,12 +36,11 @@ body {
   border-color: get-color("secondary") transparent transparent transparent;
   //transition: border-width 0.3s ease-out;
 
-  //only working with !important
   @include media-query("md") {
-    --deco-border-width: 70vw !important;
+    --deco-border-width: 70vw;
   }
   @include media-query("lg") {
-    --deco-border-width: 50vw !important;
+    --deco-border-width: 50vw;
   }
 }
 

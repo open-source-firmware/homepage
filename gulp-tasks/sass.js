@@ -42,7 +42,7 @@ const sass = () => {
       cleanCSS(
         isProduction
           ? {
-              level: 2,
+              level: 1,
             }
           : {}
       )
