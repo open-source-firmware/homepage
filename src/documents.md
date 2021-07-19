@@ -9,8 +9,8 @@ Here you find all important public documents related to the Open-Source Firmware
 <div class="cluster">
       <div class="cluster-inner">
         <a
-          href="https://docs.google.com/document/d/1dX0wFXkFBa1EvwZN56FRjRrRWXY1uehj/export?format=pdf"
-          download="Open-Source-Firmware-Foundation.pdf"
+          href="#"
+          download="OSFF - Articles of Incooperation.pdf"
           class="button"
         >
           Articles of Incooperation
