@@ -1,36 +1,29 @@
-
-  <div class="logo" id="logo">
-    <h1>
-      <a href="/">
-        <img
-          src="/images/OSFF_Logo.svg"
-          alt="Open Source Firmware Foundation"
-        />
-      </a>
-    </h1>
-  </div>
-  <header role="banner" class="header">
-    <nav class="main-nav" aria-label="main">
-      <ul class="">
-        {% for item in navigation.items %}
-        <li>
-          <a
-            href="{{ item.url}}"
-            {{
-            helpers.getLinkActiveState(item.url,
-            page.url)
-            |
-            safe
-            }}
-            class="text-400 md:text-500 color-white uppercase"
-          >
-            {{ item.text }}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
-  {#
+<div class="logo" id="logo">
+  <h1>
+    <a href="/">
+      <img src="/images/OSFF_Logo.svg" alt="Open Source Firmware Foundation" />
+    </a>
+  </h1>
 </div>
-#}
+<header role="banner" class="header">
+  <nav class="main-nav" aria-label="main">
+    <ul class="">
+      {% for item in navigation.items %}
+      <li>
+        <a
+          href="{{ item.url}}"
+          {{
+          helpers.getLinkActiveState(item.url,
+          page.url)
+          |
+          safe
+          }}
+          class="text-400 md:text-500 color-white uppercase"
+        >
+          {{ item.text }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
