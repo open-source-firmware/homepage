@@ -20,6 +20,13 @@
     }
   }
 
+  //in mobile version the svg-icons will be displayed in the footer
+  .nav-icons {
+    svg {
+      display: none;
+    }
+  }
+
   @include media-query("md") {
     margin-left: 5.625rem;
 
@@ -29,10 +36,42 @@
         margin-top: get-size("500");
       }
     }
+
+    .nav-icons {
+      display: flex;
+
+      > * + * {
+        margin-left: 0.5rem;
+      }
+
+      svg {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        color: white;
+
+        &:hover {
+          color: get-color("primary");
+        }
+      }
+    }
   }
 
   @include media-query("lg") {
     margin-left: 5.625rem;
+
+    .nav-icons {
+      display: flex;
+
+      > * + * {
+        margin-left: 1rem;
+      }
+
+      svg {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
   }
 
   @include media-query("xl") {

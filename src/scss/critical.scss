@@ -40,7 +40,7 @@ body {
     --deco-border-width: 70vw;
   }
   @include media-query("lg") {
-    --deco-border-width: 50vw;
+    --deco-border-width: 60vw;
   }
 }
 
@@ -67,6 +67,7 @@ a {
 @import "utilities/aspect-ratio";
 @import "utilities/inline-link";
 @import "utilities/js-is-scrolltop";
+@import "utilities/sr-only";
 @import "utilities/uppercase";
 
 //Layout

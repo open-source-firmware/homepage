@@ -1,18 +1,44 @@
 footer {
-  padding: get-size("300");
+  padding: get-size("350");
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
   margin-top: auto;
   text-align: left;
-  flex-direction: column;
 
   a:focus {
     border: 2px dashed get-color("secondary");
     padding: get-size("200");
+  }
+
+  .nav-icons {
+    display: flex;
+    svg {
+      color: get-color("black");
+      height: 1.5rem;
+      width: 1.5rem;
+
+      &:hover {
+        color: get-color("primary");
+      }
+    }
+
+    > * + * {
+      margin-left: 1rem;
+    }
   }
   @include media-query("md") {
     // margin-top: 25vh;
     text-align: right;
     flex-direction: row;
     justify-content: space-between;
+
+    .nav-icons {
+      svg {
+        display: none;
+      }
+    }
   }
 }

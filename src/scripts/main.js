@@ -64,8 +64,8 @@ ScrollTrigger.matchMedia({
         borderRightWidth: "120vw",
       },
       {
-        borderTopWidth: "50vw",
-        borderRightWidth: "50vw",
+        borderTopWidth: "60vw",
+        borderRightWidth: "60vw",
       },
       "<"
     );
@@ -99,8 +99,8 @@ ScrollTrigger.matchMedia({
         borderRightWidth: "110vw",
       },
       {
-        borderTopWidth: "50vw",
-        borderRightWidth: "50vw",
+        borderTopWidth: "60vw",
+        borderRightWidth: "60vw",
       },
       "<"
     );
