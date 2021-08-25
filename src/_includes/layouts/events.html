@@ -1,0 +1,21 @@
+{% extends "layouts/base.html" %} {% block content %}
+<section class="panel | bg-white">
+  <div class="panel__content">
+    <div class="plain-html | flow flow-space-400">
+      <h2>Upcoming Events</h2>
+      
+   {% for item in collections.events %}
+        <div class="news-teaser | bg-white">
+            <h3 class="news-teaser__headline | text-700 md:text-800 weight-bold color-dark">{{item.data.title}}</h3>
+            <p class="color-primary">{{item.data.date | dateFilter}}</p>
+            <p class="news-teaser__text | text-500 md:text-600">{{item.data.summary | markdownFilter | safe }}</p>
+       
+            </a>
+          </div>
+{% endfor %}
+      <h2>Previous Events</h2>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
