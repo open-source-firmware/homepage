@@ -1,7 +1,9 @@
+const moment = require("moment");
 // Filters
 const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const markdownFilter = require("./src/filters/markdown-filter.js");
+const now = moment(new Date()).format("YYYY-MM-DD");
 
 // Transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
@@ -20,7 +22,23 @@ module.exports = (config) => {
 
   // Returns a collection of news articles in reverse date order and filters them by featured
   config.addCollection("events", (collection) => {
-    return [...collection.getFilteredByGlob("./src/events/*.md")].reverse();
+    return [...collection.getFilteredByGlob("./src/events/*.md")]
+      .reverse()
+      .filter((item) => {
+        if (item.data.date >= now) {
+          return item;
+        }
+      });
+  });
+
+  config.addCollection("prevEvents", (collection) => {
+    return [...collection.getFilteredByGlob("./src/events/*.md")]
+      .reverse()
+      .filter((item) => {
+        if (item.data.date <= now) {
+          return item;
+        }
+      });
   });
 
   // Only minify HTML if we are in production because it slows builds _right_ down
