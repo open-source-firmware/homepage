@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   padding: get-size("400");
   font-size: get-size("400");
   @include apply-utility("br", "m");

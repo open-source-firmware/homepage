@@ -1,0 +1,5 @@
+{
+    "layout": "layouts/single-event.html",
+    "permalink": "/events/{{ title | slug }}/index.html"
+  }
+  

@@ -1,0 +1,33 @@
+.event-landing{
+    .event-teaser{
+        position: relative;
+        padding: 1rem;
+        border: 5px solid get-color('primary');
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        @include apply-utility("br", "m");
+
+        &:hover{
+            border-color: get-color('secondary');
+
+            .button{
+                background-color: get-color('secondary');
+
+            }
+        }
+
+
+        &__link{
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+.button{
+    padding: get-size("400");
+    margin-top: auto;
+}
+}

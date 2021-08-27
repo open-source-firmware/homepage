@@ -1,0 +1,30 @@
+{% extends "layouts/base.html" %} {% block content %}
+<section class="panel | bg-white">
+  <div class="panel__content">
+    <div class="plain-html | flow flow-space-400">
+      <h2>{{ title }}</h2>
+      <p>When: <span class="color-primary">{{date}} </span></p>
+      <p>Where: <span class="color-primary">{{location}} </span></p>
+      <p>{{summary}}</p>
+         {{ content | safe }}
+          <div class="cluster">
+      <div class="cluster-inner">
+    <a href="/events" class="button"> Get Tickets
+        <span class="sr-only">Go back to all Events</span>
+    </a>
+        <a href="/events" class="button"> See Schedule
+        <span class="sr-only">Go back to all Events</span>
+    </a>
+    <a href="/events" class="button button--secondary"> Go Back
+        <span class="sr-only">Go back to all Events</span>
+    </a>
+      </div>
+    </div>
+
+   
+</div>
+  </div>
+  
+</section>
+
+{% endblock %}
