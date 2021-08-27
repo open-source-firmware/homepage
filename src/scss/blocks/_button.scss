@@ -32,8 +32,13 @@
     }
   }
 
+ 
+
   @include media-query("md") {
     padding: get-size("550");
     font-size: get-size("500");
+  }
+  &--slim {
+    padding: get-size("400");
   }
 }

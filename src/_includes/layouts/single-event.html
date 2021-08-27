@@ -9,15 +9,12 @@
          {{ content | safe }}
           <div class="cluster">
       <div class="cluster-inner">
-    <a href="/events" class="button"> Get Tickets
-        <span class="sr-only">Go back to all Events</span>
-    </a>
-        <a href="/events" class="button"> See Schedule
-        <span class="sr-only">Go back to all Events</span>
-    </a>
-    <a href="/events" class="button button--secondary"> Go Back
-        <span class="sr-only">Go back to all Events</span>
-    </a>
+        {% for item in button %}
+            <a href="{{ item.url }}" class="button">{{ item.text }}</a>
+             {% endfor %}
+            <a href="/events" class="button button--secondary"> Go Back
+                <span class="sr-only">Go back to all Events</span>
+            </a>
       </div>
     </div>
 
