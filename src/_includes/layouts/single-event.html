@@ -4,7 +4,13 @@
     <div class="plain-html | flow flow-space-400">
       <h2>{{ title }}</h2>
       <p>When: <span class="color-primary">{{date}} </span></p>
-      <p>Where: <span class="color-primary">{{location}} </span></p>
+      <p>{% for item in location %}
+    <span class="color-primary">{{ item }} </span><br>
+    {% endfor %}</p>
+    {% if maps %}
+    <a href="{{ maps }}" target="_blank" class="button button--secondary"> View on Google Maps
+    </a>
+    {% endif %}
       <p>{{summary}}</p>
          {{ content | safe }}
           <div class="cluster">
