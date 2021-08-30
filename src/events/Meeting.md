@@ -1,6 +1,7 @@
 ---
 title: "OSFF Mini Summit 2021"
 date: "2022-11-10"
+endDate: "2022-11-15"
 location: 
  - "'The Tech Interactive'"
  - "201 S Market St"

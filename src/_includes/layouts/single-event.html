@@ -3,7 +3,10 @@
   <div class="panel__content">
     <div class="plain-html | flow flow-space-400">
       <h2>{{ title }}</h2>
-      <p>When: <span class="color-primary">{{date}} </span></p>
+      <p>{% if endDate %}From: {% else %} When: {% endif %}<span class="color-primary">{{date}} </span></p>
+      {% if endDate%}
+        <p>Until: <span class="color-primary">{{endDate}} </span></p>
+        {% endif %}
       <p>{% for item in location %}
     <span class="color-primary">{{ item }} </span><br>
     {% endfor %}</p>
