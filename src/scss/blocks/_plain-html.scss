@@ -20,7 +20,7 @@
     }
 
     @include media-query("lg") {
-      font-size: get-size("600");
+      font-size: get-size("650");
     }
   }
 
@@ -49,4 +49,17 @@
       list-style-position: inside;
     }
   }
+
+
+ hr {
+  border: none;
+  border-top: 2px solid get-color('black');
+}
+
+
+.inline-btn:hover{
+  color: get-color('white');
+}
+
+
 }
