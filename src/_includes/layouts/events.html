@@ -7,16 +7,17 @@
         class="double-grid-switcher"
         style="--dgs-threshold-l: 52rem; --dgs-column-count-l: 2"
       >
-        {% for item in collections.events %}
-         {% include "partials/event-teaser.html" %}
-        {% endfor %}
-
-        <h2 class="text-600 md:text-700 lg:text-800" style="grid-column-start: 1; grid-column-end: -1; margin-top: 1rem;">
+        {% for item in collections.events %} {% include
+        "partials/event-teaser.html" %} {% endfor %} {% if
+        collections.prevEvents.length > 0 %}
+        <h2
+          class="text-600 md:text-700 lg:text-800"
+          style="grid-column-start: 1; grid-column-end: -1; margin-top: 4rem"
+        >
           Previous Events
         </h2>
-        {% for item in collections.prevEvents %}
-          {% include "partials/event-teaser.html" %}
-        {% endfor %}
+        {% endif %} {% for item in collections.prevEvents %} {% include
+        "partials/event-teaser.html" %} {% endfor %}
       </div>
     </div>
   </div>
