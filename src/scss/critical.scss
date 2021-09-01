@@ -76,9 +76,12 @@ a {
 @import "layout/double-grid-switcher";
 @import "layout/flow";
 @import "layout/main-layout-grid";
+@import "layout/switcher";
 
 //Blocks
 @import "blocks/button";
+@import "blocks/btn-cluster";
+@import "blocks/event-landing";
 @import "blocks/footer";
 @import "blocks/header";
 @import "blocks/logo";
@@ -86,3 +89,4 @@ a {
 @import "blocks/panel";
 @import "blocks/polaroid";
 @import "blocks/plain-html";
+

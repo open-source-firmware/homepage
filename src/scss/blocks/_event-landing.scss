@@ -1,0 +1,34 @@
+.event-landing {
+  .event-teaser {
+    position: relative;
+    padding: 1rem;
+    border: 5px solid get-color("primary");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0.75rem;
+
+    &:hover {
+      border-color: get-color("secondary");
+
+      .button {
+        background-color: get-color("secondary");
+      }
+    }
+
+    &__text {
+      margin-bottom: 0.5rem;
+    }
+
+    &__link {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  .button {
+    margin-top: auto;
+  }
+}

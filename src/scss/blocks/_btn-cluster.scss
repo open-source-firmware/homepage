@@ -1,0 +1,11 @@
+
+.btn-cluster{
+    .button:nth-of-type(2n){
+      background: get-color('secondary');
+      color: get-color("white");
+  
+      &:hover{
+      background: get-color('black');
+      }
+    }
+  }

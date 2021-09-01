@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   padding: get-size("400");
   font-size: get-size("400");
   @include apply-utility("br", "m");
@@ -31,8 +32,13 @@
     }
   }
 
+ 
+
   @include media-query("md") {
     padding: get-size("550");
     font-size: get-size("500");
+  }
+  &--slim {
+    padding: get-size("400");
   }
 }
