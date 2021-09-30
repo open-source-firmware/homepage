@@ -1,59 +1,69 @@
 {% extends "layouts/base.html" %} {% block content %}
 <section class="panel | bg-white">
-    <div class="panel__content | flow flow-space-600">
-        <div class="plain-html | flow flow-space-400">
-            <p>
-                <span class="color-secondary weight-bold">{{date | dateFilter}}</span> 
-                {% if endDate%}
-                <span class="color-secondary weight-bold"> - {{endDate | dateFilter}} </span>
-                {% endif %}
-            </p>
-            <h2>{{ title }}</h2>
-            <p>{{summary}}</p>
-            <div class="flow flow-space-400">{{ content | safe }}</div>
-        </div>
+  <div class="panel__content | flow flow-space-600">
+    <div class="plain-html | flow flow-space-400">
+      <p>
+        <span class="color-secondary weight-bold">{{date | dateFilter}}</span>
+        {% if endDate%}
+        <span class="color-secondary weight-bold">
+          - {{endDate | dateFilter}}
+        </span>
+        {% endif %}
+      </p>
+      <h2>{{ title }}</h2>
+      <div class="flow flow-space-400">{{ content | safe }}</div>
     </div>
+  </div>
 </section>
 <section class="panel | bg-primary pd-700">
-    <div class="panel__content | flow flow-space-600">
-        <div class="plain-html | flow flow-space-400">
-            <h2 class="text-650 md:text-700 lg:text-800 panel_headline color-white">
-            Hard Facts
-            </h2>
-            <div class="switcher">
-                <div>
-                    {% if location %}
-                    <div class="address">
-                        <h3 class="text-650">Where</h3>
-                        <p>{% for item in location %}
-                        <span class="">{{ item }} </span><br>
-                        {% endfor %}
-                        </p>
-                        {% if maps %}
-                        <a href="{{ maps }}" target="_blank" class="inline-btn color-black text-500 lg:text-600" style="text-decoration: underline;"> View on Google Maps
-                        </a>
-                        {% endif %}
-                    </div>
-                    {% endif %}
-                    {% if timeline %}
-                    <div class="date">
-                        <h3>When</h3>
-                        {% for item in timeline %}
-                        <p>{{item}}</p>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
-            <hr class="line">
-            <div class="btn-cluster cluster">
-                <div class="cluster-inner">
-                    {% for item in button %}
-                    <a href="{{ item.url }}" class="button button--white">{{ item.text }}</a>
-                    {% endfor %}
-                </div>
-            </div>
+  <div class="panel__content | flow flow-space-600">
+    <div class="plain-html | flow flow-space-400">
+      <h2 class="text-650 md:text-700 lg:text-800 panel_headline color-white">
+        Hard Facts
+      </h2>
+      <div class="switcher">
+        <div>
+          {% if location %}
+          <div class="address">
+            <h3 class="text-650">Where</h3>
+            <p>
+              {% for item in location %} <span class="">{{ item }} </span><br />
+              {% endfor %}
+            </p>
+            {% if maps %}
+            <a
+              href="{{ maps }}"
+              target="_blank"
+              class="inline-btn color-black text-500 lg:text-600"
+              style="text-decoration: underline"
+            >
+              View on Google Maps
+            </a>
+            {% endif %}
+          </div>
+          {% endif %} {% if timeline %}
+          <div class="date">
+            <h3>When</h3>
+            {% for item in timeline %}
+            <p>{{item}}</p>
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
+      </div>
+      {% if button %}
+      <hr class="line" />
+      <div class="btn-cluster cluster">
+        <div class="cluster-inner">
+          {% for item in button %}
+          <a href="{{ item.url }}" class="button button--white"
+            >{{ item.text }}</a
+          >
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
     </div>
+  </div>
 </section>
 {% endblock %}
