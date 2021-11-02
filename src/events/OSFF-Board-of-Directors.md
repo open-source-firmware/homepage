@@ -15,7 +15,9 @@ summary: "The Open-Source Firmware Foundation invites members and developers."
 
 It's been a long time since we could talk in person. And we are happy that we can do that again now.
 
-The Open-Source Firmware Foundation invites members and developers to join us on our second event, the BoD Meeting & Hackathon. The Mini Summit will take place right after the OCP Regional Summit. We will start at around 10 am, and serve some snacks and drinks. We will do our first Board of Directors meeting and offer in parallel a hackathon for OSF developers.
+The Open-Source Firmware Foundation invites members and developers to join us on our second event, the Board of Directors Meeting & Hackathon. The Mini Summit will take place right after the OCP Regional Summit. We will start at around 10 am, and serve some snacks and drinks. We will do our first Board of Directors meeting and offer a hackathon in parallel for OSF developers who would like to join.
+
+More details will be announced soon.
 
 Current Prague rules on Covid 19 apply: https://www.visitczechrepublic.com/en-US/926179fc-1601-4cf8-b201-0b33b3878f08/page/covid-19
 

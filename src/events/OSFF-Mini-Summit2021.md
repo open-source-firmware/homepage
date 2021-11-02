@@ -15,7 +15,13 @@ summary: "The Open-Source Firmware Foundation invites everyone to join us for ta
 
 It's been a long time since we could talk in person. And we are happy that we can do that again now.
 
-The Open-Source Firmware Foundation invites everyone to join us on our first event, the Mini Summit 2021. The Mini Summit will take place right after the OCP Global Summit. We will start at around 5 pm, and serve some snacks and drinks. We invited four top-notch speakers (Will be announced soon) to give some lighting talks. There will also be demos and hardware to check out! Entry is free - we just need a reservation to keep track of the amount of people joining.
+The Open-Source Firmware Foundation invites everyone to join us on our first event, the Mini Summit 2021. The Mini Summit will take place right after the OCP Global Summit. We will start at around 5 pm, and serve some snacks and drinks. We invited four top-notch speakers to give some lighting talks. There will also be demos and hardware to check out! Entry is free - we just need a reservation to keep track of the amount of people joining. The OSFF Mini Summit is pleased to announce the following speakers:
+
+- [Ron Minnich](https://twitter.com/coreboot)
+- [Christian Walter](https://twitter.com/nablahero)
+- [Jean-Marie](https://twitter.com/vejmarie)
+- [Bryan Cantrill](https://twitter.com/bcantrill)
+- [Asset Intertech](https://twitter.com/ASSETInterTech)
 
 Current CA rules on Covid 19 apply: You must present proof of vaccination, and may be required to wear a mask. We appreciate your understanding.
 
