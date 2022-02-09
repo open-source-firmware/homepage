@@ -10,8 +10,14 @@ timeline:
   - "Thursday, April 21 - 24"
   - "from 10am - 6pm"
 maps: "https://goo.gl/maps/6xKmMrPzXgmnuSPs9"
-summary: "The Open-Source Firmware Foundation invites members and developers."
+summary: "**CANCELED** The Open-Source Firmware Foundation invites members and developers."
 ---
+
+**CANCELED**
+
+This event has been cancled due to the current situation. We are looking for alternatives. Stay updated.
+
+**CANCELED**
 
 It's been a long time since we could talk in person. And we are happy that we can do that again now.
 
