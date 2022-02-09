@@ -14,7 +14,8 @@ metaDesc = summary %} {% endif %}
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ currentUrl }}" />
 
-{% if socialImage %}
+{% if not socialImage %} {% set socialImage = site.url +
+'/images/meta/social-share.png' %} {% endif %} {% if socialImage %}
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="og:image" content="{{ socialImage }}" />
 <meta name="twitter:image" content="{{ socialImage }}" />
