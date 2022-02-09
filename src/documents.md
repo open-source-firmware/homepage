@@ -10,10 +10,24 @@ Here you find all important public documents related to the Open-Source Firmware
       <div class="cluster-inner">
         <a
           href="/documents/Articles.pdf"
-          download="Articles-of-Incorporation-Open-Source-Firmware-Foundation.pdf"
+          download="Open-Source-Firmware-Foundation-Articles-of-Incorporation.pdf"
           class="button"
         >
           Articles of Incorporation
+        </a>
+        <a
+          href="/documents/ByLaws.pdf"
+          download="Open-Source-Firmware-Foundation-ByLaws.pdf"
+          class="button"
+        >
+          ByLaws
+        </a>
+        <a
+          href="/documents/CodeOfConduct.pdf"
+          download="Open-Source-Firmware-Foundation-Code-of-Conduct.pdf"
+          class="button"
+        >
+          Code of Conduct
         </a>
       </div>
 </div>
