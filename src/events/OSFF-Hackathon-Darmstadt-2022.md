@@ -16,8 +16,7 @@ button:
 ---
 
 After two years of chaotic negativity, we are here again to restore the balance of the universe! The Open-Source Firmware Foundation, together with the coreboot community ([Felix Singer](https://twitter.com/felixsinger1), Werner Zeh and [Sheng](https://www.linkedin.com/in/tanleansheng)), are hosting a weekend long open-source firmware hackathon this June in Germany. The event is aimed for firmware developers, from beginners to professionals, everyone is welcome ;)  
-We will provide drinks and snacks all weekend long so that you can hack *all-day, all-night* on your open-source firmware projects of choice. Feel free to propose spontaneous talks & topics here:
-[Google Doc link](https://docs.google.com/document/d/1OKyvLMJjxxX3u7QNeIeluQxVRB1IkWqCp8-fFEpK1D0/edit?usp=sharing)
+We will provide drinks and snacks all weekend long so that you can hack *all-day, all-night* on your open-source firmware projects of choice. Feel free to propose spontaneous talks & topics [here](https://docs.google.com/document/d/1OKyvLMJjxxX3u7QNeIeluQxVRB1IkWqCp8-fFEpK1D0/edit?usp=sharing).
 
 
 **Attention: Places are limited, so act fast!** *(head to the bottom page for the ticket button)*  
@@ -25,7 +24,7 @@ We will provide drinks and snacks all weekend long so that you can hack *all-day
 
 ### Event Flow
 
-The event is arranged in a more free and easy way (can't promise if there would be no surprises! ;) )
+The event is arranged in a more free and easy way (we can not promise that there would be no surprises! ;) )
 
 **Friday:**  
 11am - Registration  
@@ -54,7 +53,7 @@ The event is arranged in a more free and easy way (can't promise if there would 
 ### You want more details? With pleasure:
 
 - WiFi will be available in the university area.
-- How to get here: <https://www.informatik.tu-darmstadt.de/telekooperation/telecooperation_group/directions_1/index.en.jsp>
+- How to get here: <https://www.informatik.tu-darmstadt.de/fb20/kontakt_und_anreise/index.en.jsp>
 - Getting around: <https://www.fachschaft.informatik.tu-darmstadt.de/en/newcomers/ophase/getting-around/>
 
 ### COVID-19 rules
