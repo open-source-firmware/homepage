@@ -20,7 +20,7 @@ We will provide drinks and snacks all weekend long so that you can hack *all-day
 [Google Doc link](https://docs.google.com/document/d/1OKyvLMJjxxX3u7QNeIeluQxVRB1IkWqCp8-fFEpK1D0/edit?usp=sharing)
 
 
-**Attention: Places are limited, so act fast!** *(head to the bottom page for the ticket button)*
+**Attention: Places are limited, so act fast!** *(head to the bottom page for the ticket button)*  
 
 
 ### Event Flow
@@ -54,13 +54,13 @@ The event is arranged in a more free and easy way (can't promise if there would 
 ### You want more details? With pleasure:
 
 - WiFi will be available in the university area.
-- How to get here: https://www.informatik.tu-darmstadt.de/telekooperation/telecooperation_group/directions_1/index.en.jsp
-- Getting around: https://www.fachschaft.informatik.tu-darmstadt.de/en/newcomers/ophase/getting-around/
+- How to get here: <https://www.informatik.tu-darmstadt.de/telekooperation/telecooperation_group/directions_1/index.en.jsp>
+- Getting around: <https://www.fachschaft.informatik.tu-darmstadt.de/en/newcomers/ophase/getting-around/>
 
 ### COVID-19 rules
 
-As per rules of the university, wearing masks is still required indoors (FFP2 masks required). Please be aware that the rules are subject to change according to the situation. Rest assured that we will keep you posted for any changes, for now please refer here for further information:
-https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/corona_vorsorge/index.en.jsp
+As per rules of the university, wearing masks is still required indoors (FFP2 masks required). Please be aware that the rules are subject to change according to the situation. Rest assured that we will keep you posted for any changes, for now please refer here for further information:  
+<https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/corona_vorsorge/index.en.jsp>
 
 ### This event is organized in cooperation with
 
