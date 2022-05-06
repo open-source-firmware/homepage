@@ -13,9 +13,13 @@ summary: "The Open Source Firmware Foundation, in cooperation with the coreboot 
 button:
   - url: "https://pretix.eu/9eSec/hack2022/"
     text: "Ticket"
+  - url: "https://osfw.slack.com/archives/C03AL4UEDHB"
+    text: "Join the slack channel"
+  - url: "mailto:werozeh@gmail.com;felix.singer12@gmail.com;sheng.tan@9elements.com"
+    text: "Contact us"
 ---
 
-After two years of chaotic negativity, we are here again to restore the balance of the universe! The Open-Source Firmware Foundation, together with the coreboot community ([Felix Singer](https://twitter.com/felixsinger1), Werner Zeh and [Sheng](https://www.linkedin.com/in/tanleansheng)), are hosting a weekend long open-source firmware hackathon this June in Germany. The event is aimed for firmware developers, from beginners to professionals, everyone is welcome ;)  
+After two years of chaotic negativity, we are here again to restore the balance of the universe! The Open-Source Firmware Foundation, together with the coreboot community ([Felix Singer](https://twitter.com/felixsinger1), Werner Zeh and [Sheng](https://www.linkedin.com/in/tanleansheng)), are hosting a weekend long open-source firmware hackathon this June in Germany. The event is aimed for firmware developers, from beginners to professionals, everyone is welcome!  
 We will provide drinks and snacks all weekend long so that you can hack *all-day, all-night* on your open-source firmware projects of choice. Feel free to propose spontaneous talks & topics here:
 [Google Doc link](https://docs.google.com/document/d/1OKyvLMJjxxX3u7QNeIeluQxVRB1IkWqCp8-fFEpK1D0/edit?usp=sharing)
 
@@ -36,7 +40,8 @@ The event is arranged in a more free and easy way (can't promise if there would 
 9am  - 2nd day starts - keep hacking!  
 12pm - Lunch  
 7pm  - *The night is still young*  
-**Sun:**  
+**Sun:** 
+9am  - Last day hacking - it never stop, it never will  
 12pm - Lunch & packing
 
 ### Catering
@@ -54,14 +59,14 @@ The event is arranged in a more free and easy way (can't promise if there would 
 ### You want more details? With pleasure:
 
 - WiFi will be available in the university area.
-- How to get here: <https://www.informatik.tu-darmstadt.de/telekooperation/telecooperation_group/directions_1/index.en.jsp>
-- Getting around: <https://www.fachschaft.informatik.tu-darmstadt.de/en/newcomers/ophase/getting-around/>
+- [How to get here](https://www.informatik.tu-darmstadt.de/telekooperation/telecooperation_group/directions_1/index.en.jsp)
+- [Getting around the venue](https://www.fachschaft.informatik.tu-darmstadt.de/en/newcomers/ophase/getting-around/)
 
 ### COVID-19 rules
 
 As per rules of the university, wearing masks is still required indoors (FFP2 masks required). Please be aware that the rules are subject to change according to the situation. Rest assured that we will keep you posted for any changes, for now please refer here for further information:  
-<https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/corona_vorsorge/index.en.jsp>
+[The TU in corona times](https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/corona_vorsorge/index.en.jsp)
 
 ### This event is organized in cooperation with
 
-- [9elements](https://9esec.io)
+- [9elements Cyber Security](https://9esec.io) (Sponsor)
