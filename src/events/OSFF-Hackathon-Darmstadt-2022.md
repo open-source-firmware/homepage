@@ -69,3 +69,4 @@ As per rules of the university, wearing masks is still required indoors (FFP2 ma
 ### This event is organized in cooperation with
 
 - [9elements Cyber Security](https://9esec.io) (Sponsor)
+- [CCC Darmstadt](http://www.chaos-darmstadt.de/)
