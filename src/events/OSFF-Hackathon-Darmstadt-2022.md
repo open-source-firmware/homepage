@@ -31,7 +31,7 @@ We will provide drinks and snacks all weekend long so that you can hack *all-day
 The event is arranged in a more free and easy way (we can not promise that there would be no surprises! ;) )
 
 **Friday:**  
-2pm - Registration   
+2pm  - Registration   
 3pm  - Hacking starts - brick the hardware!  
 7pm  - Dinner  
 12am - The night ends  
@@ -65,7 +65,7 @@ The event is arranged in a more free and easy way (we can not promise that there
 
 ### COVID-19 rules
 
-As per rules of the university, wearing masks is still required indoors (FFP2 masks required). Please be aware that the rules are subject to change according to the situation. Rest assured that we will keep you posted for any changes, for now please refer here for further information:  
+As per rules of the university, wearing masks is still required indoors and FFP2 masks are required from our side. Please be aware that the rules are subject to change according to the situation. Rest assured that we will keep you posted for any changes, for now please refer here for further information:  
 [The TU in corona times](https://www.tu-darmstadt.de/universitaet/aktuelles_meldungen/corona_vorsorge/index.en.jsp)
 
 ### This event is organized in cooperation with
