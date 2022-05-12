@@ -31,17 +31,19 @@ We will provide drinks and snacks all weekend long so that you can hack *all-day
 The event is arranged in a more free and easy way (we can not promise that there would be no surprises! ;) )
 
 **Friday:**  
-11am - Registration  
-12pm - Lunch  
-1pm  - Hacking starts - brick the hardware!  
+2pm - Registration   
+3pm  - Hacking starts - brick the hardware!  
 7pm  - Dinner  
+12am - The night ends  
 **Sat:**  
 9am  - 2nd day starts - keep hacking!  
 12pm - Lunch  
 7pm  - *The night is still young*  
+12am - The night ends  
 **Sun:**  
 9am  - Last day hacking - it never stop, it never will  
-12pm - Lunch & packing
+12pm - Lunch & packing  
+2pm  - Event offcially ends
 
 ### Catering
 
