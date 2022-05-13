@@ -8,7 +8,7 @@ location:
   - "Germany"
 maps: "https://goo.gl/maps/Z5o8DaHKkrex9ij49"
 timeline:
-  - "June 10, 11:00 - June 12, 12:00 CEST"
+  - "June 10, 14:00 - June 12, 14:00 CEST"
 summary: "The Open Source Firmware Foundation, in cooperation with the coreboot community will organize a three day hackathon. Everyone from the Open-Source Firmware Community is welcome to join!"
 button:
   - url: "https://pretix.eu/9eSec/hack2022/"
