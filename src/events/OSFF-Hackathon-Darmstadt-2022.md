@@ -1,6 +1,6 @@
 ---
 title: "OSFF Summer Hackathon 2022"
-date: "2022-06-10"
+date: "June 10 - June 12"
 location:
   - "Technical University of Darmstadt Robert-Piloty building"
   - "Hochschulstraße 10"
@@ -14,7 +14,9 @@ button:
   - url: "https://pretix.eu/9eSec/hack2022/"
     text: "Ticket"
   - url: "https://osfw.slack.com/archives/C03AL4UEDHB"
-    text: "Join the slack channel"
+    text: "Join the Slack channel"
+  - url: "https://matrix.to/#/#osfw-hackathon:matrix.org"
+    text: "Join the Matrix channel"
   - url: "mailto:werozeh@gmail.com;felix.singer12@gmail.com;sheng.tan@9elements.com"
     text: "Contact us"
 ---
@@ -30,17 +32,17 @@ We will provide drinks and snacks all weekend long so that you can hack *all-day
 
 The event is arranged in a more free and easy way (we can not promise that there would be no surprises! ;) )
 
-**Friday:**  
+**Friday/10 June:**  
 2pm  - Registration   
 3pm  - Hacking starts - brick the hardware!  
 7pm  - Dinner  
 12am - The night ends  
-**Sat:**  
+**Sat/11 June:**  
 9am  - 2nd day starts - keep hacking!  
 12pm - Lunch  
 7pm  - *The night is still young*  
 12am - The night ends  
-**Sun:**  
+**Sun/12 June:**  
 9am  - Last day hacking - it never stop, it never will  
 12pm - Lunch & packing  
 2pm  - Event offcially ends
