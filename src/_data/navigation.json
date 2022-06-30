@@ -15,6 +15,10 @@
     {
       "text": "Events",
       "url": "/events/"
+    },
+    {
+      "text": "Workstreams",
+      "url": "/workstreams/"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %} {% block content %}
+<section class="workstream panel | bg-white">
+  <div class="panel__content | flow flow-space-600">
+    <div class="plain-html | flow flow-space-400">
+      <h2>{{ title }}</h2>
+      <div class="plain-html flow flow-space-600">{{ content | safe }}</div>
+    </div>
+  </div>
+
+  <div class="program | flow flow-space-400 bg-primary pd-600">
+    <h4 class="text-600 color-white">{{ details.headline }}</h4>
+    <p class="text-500">{{ details.text }}</p>
+    <a
+      class="button button--white button--slim"
+      target="_blank"
+      href="{{details.buttonLink }}"
+    >
+      {{details.buttonText }}
+    </a>
+  </div>
+</section>
+
+{% endblock %}

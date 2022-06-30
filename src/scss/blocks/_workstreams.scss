@@ -1,0 +1,76 @@
+.workstreams {
+  .project-teaser {
+    position: relative;
+    padding: get-size("650");
+    border: 5px solid get-color("primary");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // max-width: 30rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: get-size("700") get-size("700") 0 0;
+      border-color: get-color("secondary") transparent transparent transparent;
+    }
+
+    &:hover {
+      border-color: get-color("secondary");
+      z-index: 999;
+
+      .button {
+        background-color: get-color("secondary");
+        color: white;
+      }
+    }
+
+    &__text {
+      margin-bottom: get-size("400");
+    }
+
+    &__image {
+      position: absolute;
+      right: get-size("650");
+      bottom: get-size("650");
+      width: 3rem;
+    }
+
+    &__link {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  .button {
+    margin-top: auto;
+  }
+}
+
+.workstream {
+  position: relative;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 80em) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 22rem;
+    padding-right: 0;
+  }
+
+  .program {
+    position: sticky;
+    top: 1rem;
+    right: -2rem;
+    align-self: start;
+    max-width: 25rem;
+  }
+}

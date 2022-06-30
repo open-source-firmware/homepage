@@ -4,7 +4,7 @@ const dateFilter = require("./src/filters/date-filter.js");
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const markdownFilter = require("./src/filters/markdown-filter.js");
 const now = moment(new Date()).format("YYYY-MM-DD");
-
+const sortByDisplayOrder = require("./src/utils/sort-by-display-order.js");
 // Transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 
@@ -39,6 +39,12 @@ module.exports = (config) => {
           return item;
         }
       });
+  });
+
+  config.addCollection("projects", (collection) => {
+    return sortByDisplayOrder(
+      collection.getFilteredByGlob("./src/projects/*.md")
+    );
   });
 
   // Only minify HTML if we are in production because it slows builds _right_ down
