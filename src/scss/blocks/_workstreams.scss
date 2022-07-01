@@ -1,32 +1,46 @@
 .workstreams {
   .project-teaser {
+    --clip-width: 3.125rem;
+    --hover-color: #{get-color("secondary")};
     position: relative;
     padding: get-size("650");
     border: 5px solid get-color("primary");
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    // max-width: 30rem;
+
+    clip-path: polygon(
+      0 var(--clip-width),
+      0 100%,
+      100% 100%,
+      100% 0,
+      var(--clip-width) 0
+    );
 
     &::before {
-      content: "";
       position: absolute;
-      top: -5px;
-      left: -5px;
-      width: 0px;
-      height: 0px;
+      width: 0;
+      height: 0;
       border-style: solid;
-      border-width: get-size("700") get-size("700") 0 0;
-      border-color: get-color("secondary") transparent transparent transparent;
+      border-width: calc(var(--clip-width) + 8px) calc(var(--clip-width) + 8px)
+        0 0;
+      border-color: var(--hover-color) transparent transparent transparent;
+      left: -5px;
+      top: -5px;
+      position: absolute;
     }
 
     &:hover {
-      border-color: get-color("secondary");
+      border-color: var(--hover-color);
       z-index: 999;
 
       .button {
         background-color: get-color("secondary");
         color: white;
+      }
+
+      &::before {
+        content: "";
       }
     }
 
