@@ -29,5 +29,12 @@ Here you find all important public documents related to the Open-Source Firmware
         >
           Code of Conduct
         </a>
+        <a
+          href="/documents/AntiTrustPolicyAndIPRPolicy.pdf"
+          download="Open-Source-Firmware-Foundation-AntiTrust-and-IPR-Policy.pdf"
+          class="button"
+        >
+          Antitrust & IPR Policy
+        </a>
       </div>
 </div>
