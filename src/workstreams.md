@@ -1,7 +1,7 @@
 ---
-title: "Our Projects"
+title: "Workstreams"
 layout: "layouts/workstreams.html"
 bigLogo: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+The Open-Source Firmware Foundation encourages it's members to push OSF to newer limits through workstreams. So join the conversations, start discussing in the calls and events and see what we can build together. If you like to set up a new workstream within the OSFF, feel free to reach out to [us](mailto:christian@opensourcefirmware.foundation).
