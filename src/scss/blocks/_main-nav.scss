@@ -23,6 +23,11 @@
       outline: 2px dashed get-color("primary");
       outline-offset: get-size("200");
     }
+
+    a[aria-current="page"],
+    a[data-state="active"] {
+      text-decoration: 2px get-color("primary") underline;
+    }
   }
 
   //in mobile version the svg-icons will be displayed in the footer

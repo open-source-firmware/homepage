@@ -1,0 +1,24 @@
+<div class="project-teaser flow flow-space-400 | bg-primary">
+  <div class="project-teaser__text flow flow-space-400">
+    <h3
+      class="project-teaser__headline | text-550 md:text-600 lg:text-600 weight-bold color-white"
+    >
+      {{item.data.title}}
+    </h3>
+    <p class="text-400 md:text-500">
+      {{item.data.summary | markdownFilter | safe }}
+    </p>
+  </div>
+
+  <div
+    class="button button--white button--slim"
+    aria-hidden="true"
+    style="margin-top: auto"
+  >
+    More Info
+  </div>
+  <img class="project-teaser__image" src="/images/logo.png" alt="" />
+  <a href="{{ item.url }}" class="project-teaser__link">
+    <span class="sr-only">More about {{ item.data.title }}</span>
+  </a>
+</div>

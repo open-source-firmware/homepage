@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/single-project.html",
+  "permalink": "/workstreams/{{ title | slug }}/index.html"
+}
