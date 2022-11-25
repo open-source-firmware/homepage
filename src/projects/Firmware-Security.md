@@ -19,7 +19,9 @@ The Firmware Security workstream of the Open Source Firmware Foundation. Talk to
 
 ## Resources
 
+- [Workstream Slides](https://docs.google.com/presentation/d/1No7GzD97aGh7x6_iBQqGkVkLKA_os6q3CJ-z6xIw1Mw/edit?usp=sharing)
 - [Meeting Notes](https://docs.google.com/document/d/1z2pBoSAEL88NNJpAJBcUUd_eSO9vgxnm2WpBfN12joA/edit?usp=sharing)
+- [Guideline Documents](https://drive.google.com/drive/folders/1cTwCF4ZUZRQ6Kt5P3pnwbsbAu8ZwRhXS?usp=sharing)
 
 ## Workstream leads
 
