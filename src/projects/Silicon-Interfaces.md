@@ -11,10 +11,11 @@ Integrating binary blobs that handle parts of the silicon initialization is a co
 
 The *Silicon Interface Design* workstream has the goal to unify these interfaces and define a specification around it so that SoC vendors and (open-source) firmware projects, and their developers, have a fixed and common way to interact and configure those silicon initialization code.
 
-Kickoff Meeting: October 10th, 5.00pm CEST - 11.00AM ET
+**Kickoff Meeting: December 12th, 7.00pm CST - 10.00AM ET**
 
 ## Resources
 
+- [Introduction Slides](https://osfw.foundation/slides/SiliconInterfaceDesign/OSFF-Workstream-SiliconInterfaceDesign-Intro.pdf)
 - [Meeting Notes](#)
 
 ## Workstream leads
