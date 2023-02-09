@@ -19,6 +19,10 @@
     {
       "text": "Workstreams",
       "url": "/workstreams/"
+    },
+    {
+      "text": "Blog",
+      "url": "https://blog.osfw.foundation/"
     }
   ]
 }
