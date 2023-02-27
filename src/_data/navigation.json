@@ -5,20 +5,24 @@
       "url": "/"
     },
     {
-      "text": "Documents",
-      "url": "/documents/"
+      "text": "Projects",
+      "url": "/projects/"
     },
     {
-      "text": "Media",
-      "url": "/media/"
+      "text": "Workstreams",
+      "url": "/workstreams/"
     },
     {
       "text": "Events",
       "url": "/events/"
     },
     {
-      "text": "Workstreams",
-      "url": "/workstreams/"
+      "text": "Documents",
+      "url": "/documents/"
+    },
+    {
+      "text": "Media",
+      "url": "/media/"
     },
     {
       "text": "Blog",
