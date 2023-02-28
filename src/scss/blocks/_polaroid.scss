@@ -53,7 +53,7 @@
     }
   }
 
-  a:focus img {
+  a:focus-visible img {
     outline: 2px dashed get-color("black");
     outline-offset: 15px;
   }

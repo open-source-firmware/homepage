@@ -14,7 +14,7 @@
     color: get-color("white");
   }
 
-  &:focus {
+  &:focus-visible {
     outline: 2px dashed get-color("white");
     outline-offset: -5px;
   }
@@ -27,12 +27,10 @@
     background: get-color("white");
     color: get-color("primary");
 
-    &:focus {
+    &:focus-visible {
       outline-color: get-color("primary");
     }
   }
-
- 
 
   @include media-query("md") {
     padding: get-size("550");

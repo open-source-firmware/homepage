@@ -8,7 +8,7 @@ footer {
   margin-top: auto;
   text-align: left;
 
-  a:focus {
+  a:focus-visible {
     border: 2px dashed get-color("secondary");
     padding: get-size("200");
   }
