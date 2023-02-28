@@ -5,19 +5,17 @@
   &__list {
     min-width: 100%;
   }
+
   ul {
     list-style-type: none;
     display: flex;
-
+    flex-wrap: wrap;
+    margin-top: get-size("500");
+    gap: 0.75rem 1rem;
     max-width: max-content;
-    justify-content: space-between;
-
-    > * {
-      margin-top: get-size("500");
-    }
 
     li:hover a {
-      text-decoration: 2px get-color("primary") underline;
+      border-bottom: 2px solid get-color("primary");
     }
     a:focus {
       outline: 2px dashed get-color("primary");
@@ -26,7 +24,7 @@
 
     a[aria-current="page"],
     a[data-state="active"] {
-      text-decoration: 2px get-color("primary") underline;
+      border-bottom: 2px solid get-color("primary");
     }
   }
 
@@ -40,9 +38,10 @@
   @include media-query("md") {
     margin-left: 5.625rem;
 
-    ul {
+    .main-nav__list {
       display: block;
-      > * + * {
+
+      & > * + * {
         margin-top: get-size("500");
       }
     }
@@ -50,12 +49,11 @@
     .nav-icons {
       max-width: max-content;
       display: flex;
+      align-items: center;
       border-top: 1px solid white;
       justify-content: flex-start;
-
-      > * + * {
-        margin-left: 0.5rem;
-      }
+      gap: 1rem;
+      padding-top: get-size("500");
 
       svg {
         display: block;
@@ -72,14 +70,6 @@
 
   @include media-query("lg") {
     margin-left: 5.625rem;
-
-    .nav-icons {
-      display: flex;
-
-      > * + * {
-        margin-left: 1rem;
-      }
-    }
   }
 
   @include media-query("xl") {
