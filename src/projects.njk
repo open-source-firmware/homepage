@@ -18,81 +18,60 @@ bigLogo: false
           >contact@osfw.foundation </a
         >.
       </p>
+
       <section class="panel">
         <div class="panel__content | flow flow-space-600">
           <div class="wrapper">
+            <h2 class="text-600 md:text-700 lg:text-800">Supported By Us</h2>
             <ul class="auto-grid">
-              <li>
-                <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-                  <a target="_blank" href="https://www.coreboot.org/">
-                    <div class="aspect-ratio-square">
-                      <img
-                        src="../images/projects/coreboot.svg"
-                        alt="logo of the coreboot projects"
-/>
-                    </div>
-                  </a>
-                </figure>
-              </li>
-              <li>
-                <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-                  <a target="_blank" href="https://www.linuxboot.org/">
-                    <div class="aspect-ratio-square">
-                      <img
-                        src="../images/projects/linuxboot.svg"
-                        alt="logo of the linuxboot project"
-/>
-                    </div>
-                  </a>
-                </figure>
-              </li>
-              <li>
-                <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-                  <a
-                    target="_blank"
-                    href="https://github.com/9elements/converged-security-suite"
-                  >
-                    <div class="aspect-ratio-square">
-                      <img
-                        src="../images/projects/css.svg"
-                        alt="logo of the converged-security-suite project"
-/>
-                    </div>
-                  </a>
-                </figure>
-              </li>
-              <li>
-                <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-                  <a target="_blank" href="https://u-bmc.org/">
-                    <div class="aspect-ratio-square">
-                      <img
-                        src="../images/projects/u-bmc.svg"
-                        alt="logo of the u-bmc project"
-/>
-                    </div>
-                  </a>
-                </figure>
-              </li>
-              <li>
-                <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-                  <a
-                    target="_blank"
-                    href="https://github.com/open-source-firmware/go-tcg-storage"
-                  >
-                    <div class="aspect-ratio-square">
-                      <img
-                        src="../images/projects/oscar.svg"
-                        alt="no logo yet :)"
-/>
-                    </div>
-                  </a>
-                </figure>
-              </li>
-              <li></li>
-            </ul>
-          </div>
+              {% for item in collections.projects %}
+                {% if item.data.supportedByUs %}
+                  <li>
+                    <figure class="polaroid polaroid--linked polaroid--logo | br-m">
+                      <a target="_blank" href="{{ item.data.link }}">
+                        <div class="aspect-ratio-square">
+                          <img
+                        src="{{ item.data.img.src }}"
+
+                        {% if item.data.img.alt %}}
+                          alt="{{ item.data.img.alt }}"/>
+                        {% else %}
+                          alt="logo of the {{ item.data.title }} projects"/>
+                        {% endif %}
+                      </div>
+                    </a>
+                  </figure>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <div class="wrapper">
+            <h2 class="text-600 md:text-700 lg:text-800">Projects</h2>
+            <ul class="auto-grid">
+              {% for item in collections.projects %}
+                {% if not item.data.supportedByUs %}
+                  <li>
+                    <figure class="polaroid polaroid--linked polaroid--logo | br-m">
+                      <a target="_blank" href="{{ item.data.link }}">
+                        <div class="aspect-ratio-square">
+                          <img
+                        src="{{ item.data.img.src }}"
+
+                        {% if item.data.img.alt %}}
+                          alt="{{ item.data.img.alt }}"/>
+                        {% else %}
+                          alt="logo of the {{ item.data.title }} projects"/>
+                        {% endif %}
+                      </div>
+                    </a>
+                  </figure>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </div>
+</div>
 </section>
