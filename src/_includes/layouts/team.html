@@ -1,0 +1,134 @@
+{% extends "layouts/base.html" %} {% block content %}
+<section id="leadership-team" class="panel | bg-white">
+  <h2 class="text-650 md:text-700 lg:text-800 panel__headline">
+    {{title}}
+  </h2>
+  <br>
+  <div class="panel__content | flow flow-space-400">
+    <h4 >
+      Leadership
+    </h4>
+    <ul class="double-grid-switcher" style="--dgs-threshold-l: 52rem">
+      <li>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/philipp-deppenwiese-40a357111/"
+        >
+          <figure class="polaroid polaroid--linked | br-m">
+            <div class="aspect-ratio-square">
+              <picture>
+                <source
+                  srcset="../images/team/philipp-immune.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="../images/team/philipp-immune.jpg"
+                  alt="Portrait of Philipp Deppenwiese"
+                />
+              </picture>
+            </div>
+
+            <figcaption>
+              <span class="color-primary font-head weight-bold uppercase">
+                Philipp Deppenwiese
+                <br />
+                President
+              </span>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/martinlroth/">
+          <figure class="polaroid polaroid--linked | br-m">
+            <div class="aspect-ratio-square">
+              <picture>
+                <source
+                  srcset="../images/team/martin-roth.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="../images/team/martin-roth.jpg"
+                  alt="Portrait of Martin Roth"
+                />
+              </picture>
+            </div>
+            <figcaption>
+              <span class="color-primary font-head weight-bold uppercase">
+                Martin Roth
+                <br />
+                Secretary
+              </span>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <br /><br />
+  <div class="panel__content | flow flow-space-400">
+    <h4>
+      Board of Directors
+    </h4>
+    <ul class="double-grid-switcher" style="--dgs-threshold-l: 52rem">
+      <li>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/christian-walter-45588b8b/"
+        >
+          <figure class="polaroid polaroid--linked | br-m">
+            <div class="aspect-ratio-square">
+              <picture>
+                <source
+                  srcset="../images/team/christian-walter.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="../images/team/christian-walter.jpg"
+                  alt="Portrait of Christian Walter"
+                />
+              </picture>
+            </div>
+            <figcaption>
+              <span class="color-primary font-head weight-bold uppercase">
+                Christian Walter
+                <br />
+                Director / Finance
+              </span>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/kai-michaelis-60319a196/"
+        >
+          <figure class="polaroid polaroid--linked | br-m">
+            <div class="aspect-ratio-square">
+              <picture>
+                <source
+                  srcset="../images/team/kai-immune.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="../images/team/kai-immune.jpg"
+                  alt="Portrait of Kai Michaelis"
+                />
+              </picture>
+            </div>
+            <figcaption>
+              <span class="color-primary font-head weight-bold uppercase">
+                Kai Michaelis
+                <br />
+                Director
+              </span>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+{% endblock %}

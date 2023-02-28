@@ -1,0 +1,74 @@
+{% extends "layouts/base.html" %} {% block content %}
+<section class="panel | bg-white">
+    <div class="panel__content | flow flow-space-600">
+      <h2 class="text-650 md:text-700 lg:text-800 panel__headline">
+        {{title}}
+      </h2>
+      <p class="text-500 lg:text-600">
+        If you want to know more about the benefits being an OSFF Member, check
+        out the
+        <a
+          href="slides/Open-Source-Firmware-Foundation_public.pdf"
+          download="Open-Source-Firmware-Foundation.pdf"
+          class="inline-link color-primary"
+          >OSFF slides</a
+        >
+        .
+      </p>
+      <h4>Founding Members</h4>
+      <div class="wrapper">
+        <ul class="auto-grid">
+          <li>
+            <figure class="polaroid polaroid--linked polaroid--logo | br-m">
+              <a target="_blank" href="https://9esec.io/">
+                <div class="aspect-ratio-square">
+                  <img
+                    src="../images/members/9e.svg"
+                    alt="logo of 9elements cyber security"
+                  />
+                </div>
+              </a>
+            </figure>
+          </li>
+          <li>
+            <figure class="polaroid polaroid--linked polaroid--logo | br-m">
+              <a target="_blank" href="https://mullvad.net/de/">
+                <div class="aspect-ratio-square">
+                  <img src="../images/members/mullvad.svg" alt="logo of mullvad" />
+                </div>
+              </a>
+            </figure>
+          </li>
+        </ul>
+      </div>
+      <br>
+      <h4>General Members</h4>
+      <div class="wrapper">
+        <ul class="auto-grid">
+          <li>
+            <figure class="polaroid polaroid--linked polaroid--logo | br-m">
+              <a target="_blank" href="https://immune.gmbh/">
+                <div class="aspect-ratio-square">
+                  <img
+                    src="../images/members/immune.svg"
+                    alt="logo of immune gmbh"
+                  />
+                </div>
+              </a>
+            </figure>
+          </li>
+          <li>
+            <figure class="polaroid polaroid--linked polaroid--logo | br-m">
+              <a target="_blank" href="https://binarly.io/">
+                <div class="aspect-ratio-square">
+                  <img src="../images/members/binarly.jpg" alt="logo of binarly inc" />
+                </div>
+              </a>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

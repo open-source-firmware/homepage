@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "text": "Members",
+      "url": "/members/"
+    },
+    {
       "text": "Projects",
       "url": "/projects/"
     },
@@ -19,6 +23,10 @@
     {
       "text": "Documents",
       "url": "/documents/"
+    },
+    {
+      "text": "Team",
+      "url": "/team/"
     },
     {
       "text": "Media",

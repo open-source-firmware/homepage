@@ -13,18 +13,13 @@
     <h2 class="text-650 md:text-700 lg:text-800 panel_headline color-white">
       Next up
     </h2>
-    <p class="text-500 lg:text-600">
-      2023/01/27 - 7.00pm CET / 10.00am PT - Open-Source Firmware Foundation
-      Open Call
-    </p>
-    <div class="cluster">
-      <div class="inner-cluster">
-        <a
-          href="https://lists.osfw.foundation/g/main/calendar"
-          class="button button--white"
-        >
-          Check out the calendar
-        </a>
+    <div class="event-landing | flow flow-space-400">
+      <div
+        class="double-grid-switcher"
+        style="--dgs-threshold-l: 52rem; --dgs-column-count-l: 2"
+      >
+        {% for item in collections.events %} {% include
+        "partials/event-teaser.html" %} {% endfor %}
       </div>
     </div>
   </div>
@@ -33,7 +28,7 @@
   <div class="panel__content | flow flow-space-600">
     <p class="text-500 lg:text-600">
       The <strong>Open-Source Firmware Foundation (OSFF)</strong>
-      is a non-profit organization with the overall goal to enhance
+      is a <a href="https://egov.sos.state.or.us/br/pkg_web_name_srch_inq.show_detl?p_be_rsn=2197919&p_srce=BR_INQ&p_print=FALSE">Oregon non-profit mutual benefit with members organization</a> with the overall goal to enhance
       communication between all parties involved in the open-source firmware
       space. The OSFF was founded in 2021 by a group of industry-leading
       companies in open-source firmware.
@@ -63,125 +58,6 @@
         </a>
       </div>
     </div>
-  </div>
-</section>
-<section id="leadership-team" class="panel">
-  <div class="panel__content | flow flow-space-400">
-    <h2 class="text-650 md:text-700 lg:text-800 panel__headline">
-      Leadership Team
-    </h2>
-    <ul class="double-grid-switcher" style="--dgs-threshold-l: 52rem">
-      <li>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/philipp-deppenwiese-40a357111/"
-        >
-          <figure class="polaroid polaroid--linked | br-m">
-            <div class="aspect-ratio-square">
-              <picture>
-                <source
-                  srcset="images/team/philipp-immune.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="images/team/philipp-immune.jpg"
-                  alt="Portrait of Philipp Deppenwiese"
-                />
-              </picture>
-            </div>
-
-            <figcaption>
-              <span class="color-primary font-head weight-bold uppercase">
-                Philipp Deppenwiese
-                <br />
-                President
-              </span>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/christian-walter-45588b8b/"
-        >
-          <figure class="polaroid polaroid--linked | br-m">
-            <div class="aspect-ratio-square">
-              <picture>
-                <source
-                  srcset="images/team/christian-walter.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="images/team/christian-walter.jpg"
-                  alt="Portrait of Christian Walter"
-                />
-              </picture>
-            </div>
-            <figcaption>
-              <span class="color-primary font-head weight-bold uppercase">
-                Christian Walter
-                <br />
-                Director / Finance
-              </span>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/kai-michaelis-60319a196/"
-        >
-          <figure class="polaroid polaroid--linked | br-m">
-            <div class="aspect-ratio-square">
-              <picture>
-                <source
-                  srcset="images/team/kai-immune.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="images/team/kai-immune.jpg"
-                  alt="Portrait of Kai Michaelis"
-                />
-              </picture>
-            </div>
-            <figcaption>
-              <span class="color-primary font-head weight-bold uppercase">
-                Kai Michaelis
-                <br />
-                Interim Director
-              </span>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li>
-        <a target="_blank" href="https://www.linkedin.com/in/martinlroth/">
-          <figure class="polaroid polaroid--linked | br-m">
-            <div class="aspect-ratio-square">
-              <picture>
-                <source
-                  srcset="images/team/martin-roth.webp"
-                  type="image/webp"
-                />
-                <img
-                  src="images/team/martin-roth.jpg"
-                  alt="Portrait of Martin Roth"
-                />
-              </picture>
-            </div>
-            <figcaption>
-              <span class="color-primary font-head weight-bold uppercase">
-                Martin Roth
-                <br />
-                Secretary
-              </span>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-    </ul>
   </div>
 </section>
 <section class="panel | bg-primary pd-700">
@@ -216,49 +92,6 @@
           Join our Mailing List
         </a>
       </div>
-    </div>
-  </div>
-</section>
-<section class="panel">
-  <div class="panel__content | flow flow-space-600">
-    <h2 class="text-650 md:text-700 lg:text-800 panel__headline">
-      Meet our Members!
-    </h2>
-    <p class="text-500 lg:text-600">
-      If you want to know more about the benefits being an OSFF Member, check
-      out the
-      <a
-        href="slides/Open-Source-Firmware-Foundation_public.pdf"
-        download="Open-Source-Firmware-Foundation.pdf"
-        class="inline-link color-primary"
-        >OSFF slides</a
-      >
-      .
-    </p>
-    <div class="wrapper">
-      <ul class="auto-grid">
-        <li>
-          <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-            <a target="_blank" href="https://9esec.io/">
-              <div class="aspect-ratio-square">
-                <img
-                  src="images/9e.svg"
-                  alt="logo of 9elements cyber security"
-                />
-              </div>
-            </a>
-          </figure>
-        </li>
-        <li>
-          <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-            <a target="_blank" href="https://mullvad.net/de/">
-              <div class="aspect-ratio-square">
-                <img src="images/mullvad.svg" alt="logo of mullvad" />
-              </div>
-            </a>
-          </figure>
-        </li>
-      </ul>
     </div>
   </div>
 </section>
