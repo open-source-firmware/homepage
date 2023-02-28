@@ -1,4 +1,9 @@
-{% extends "layouts/base.html" %} {% block content %}
+---
+title: "Open-Source Firmware Projects"
+layout: "layouts/content.html"
+bigLogo: false
+---
+
 <section class="panel | bg-white">
   <div class="panel__content">
     <div class="plain-html | flow flow-space-400">
@@ -24,7 +29,7 @@
                       <img
                         src="../images/projects/coreboot.svg"
                         alt="logo of the coreboot projects"
-                      />
+/>
                     </div>
                   </a>
                 </figure>
@@ -36,7 +41,7 @@
                       <img
                         src="../images/projects/linuxboot.svg"
                         alt="logo of the linuxboot project"
-                      />
+/>
                     </div>
                   </a>
                 </figure>
@@ -51,7 +56,7 @@
                       <img
                         src="../images/projects/css.svg"
                         alt="logo of the converged-security-suite project"
-                      />
+/>
                     </div>
                   </a>
                 </figure>
@@ -63,7 +68,7 @@
                       <img
                         src="../images/projects/u-bmc.svg"
                         alt="logo of the u-bmc project"
-                      />
+/>
                     </div>
                   </a>
                 </figure>
@@ -78,7 +83,7 @@
                       <img
                         src="../images/projects/oscar.svg"
                         alt="no logo yet :)"
-                      />
+/>
                     </div>
                   </a>
                 </figure>
@@ -88,9 +93,6 @@
           </div>
         </div>
       </section>
-      {{ content | safe }}
     </div>
   </div>
 </section>
-
-{% endblock %}

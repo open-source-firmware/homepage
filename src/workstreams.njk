@@ -1,0 +1,30 @@
+---
+title: "Workstreams"
+layout: "layouts/content.html"
+bigLogo: false
+---
+
+{# The Open-Source Firmware Foundation encourages it's members to push OSF to newer limits through workstreams. So join the conversations, start discussing in the calls and events and see what we can build together. If you like to set up a new workstream within the OSFF, feel free to reach out to [us](mailto:christian@opensourcefirmware.foundation). #}
+
+<section class="panel | bg-white">
+  <div class="panel__content">
+    <div class="plain-html | flow flow-space-400">
+      <h2>{{title}}</h2>
+      <p>The Open-Source Firmware Foundation encourages it's members to push OSF to newer limits through workstreams. So join the conversations, start discussing in the calls and events and see what we can build together. If you like to set up a new workstream within the OSFF, feel free to reach out to
+      <a href="mailto:christian@opensourcefirmware.foundation">us</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="workstreams">
+  <div
+    class="double-grid-switcher"
+    style="--dgs-threshold-m: 40rem; --dgs-column-count-l: 2; gap: 2rem"
+  >
+    {% for item in collections.projects %}
+      {% include
+    "partials/project-teaser.html" %}
+    {% endfor %}
+  </div>
+</section>
