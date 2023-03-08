@@ -6,8 +6,8 @@ bigLogo: false
 
 <section class="panel | bg-white">
   <div class="panel__content">
-    <div class="plain-html | flow flow-space-800">
-      <h2>{{title}}</h2>
+    <div class="flow flow-space-800">
+      <h2 class="text-650 md:text-700 lg:text-800 panel__headline">{{title}}</h2>
       <p class="text-500 lg:text-600">
         We are here to support open-source firmware projects. If you are
         interested in joining the Open-Source Firmware Foundation, feel free to
@@ -18,9 +18,9 @@ bigLogo: false
           >contact@osfw.foundation 
         </a>.
       </p>
-      <div class="panel__content | wrapper | flow flow-space-800">
+      <div class="wrapper | flow flow-space-800">
         <div class="flow">
-          <h2 class="text-600 md:text-700 lg:text-800">Supported By Us</h2>
+          <h4>Supported By Us</h4>
           <ul role="list" class="flow flow-space-600">
 
             {% for item in collections.projects %}
@@ -56,7 +56,7 @@ bigLogo: false
         </div>
 
         <div class="flow">
-          <h2 class="text-600 md:text-700 lg:text-800">Other Projects</h2>
+          <h4>Other Projects</h4>
           <ul role="list" class="flow flow-space-600">
 
             {% for item in collections.projects %}
