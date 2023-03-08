@@ -6,7 +6,7 @@ bigLogo: false
 
 <section class="panel | bg-white">
   <div class="panel__content">
-    <div class="plain-html | flow flow-space-400">
+    <div class="plain-html | flow flow-space-800">
       <h2>{{title}}</h2>
       <p class="text-500 lg:text-600">
         We are here to support open-source firmware projects. If you are
@@ -15,63 +15,83 @@ bigLogo: false
         <a
           href="mailto:contact@osfw.foundation"
           class="inline-link color-primary"
-          >contact@osfw.foundation </a
-        >.
+          >contact@osfw.foundation 
+        </a>.
       </p>
+      <div class="panel__content | wrapper | flow flow-space-800">
+        <div class="flow">
+          <h2 class="text-600 md:text-700 lg:text-800">Supported By Us</h2>
+          <ul role="list" class="flow flow-space-600">
 
-      <section class="panel">
-        <div class="panel__content | flow flow-space-600">
-          <div class="wrapper">
-            <h2 class="text-600 md:text-700 lg:text-800">Supported By Us</h2>
-            <ul class="auto-grid">
-              {% for item in collections.projects %}
-                {% if item.data.supportedByUs %}
-                  <li>
-                    <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-                      <a target="_blank" href="{{ item.data.link }}">
-                        <div class="aspect-ratio-square">
-                          <img
-                        src="{{ item.data.img.src }}"
+            {% for item in collections.projects %}
+              {% if item.data.supportedByUs %}
 
-                        {% if item.data.img.alt %}}
-                          alt="{{ item.data.img.alt }}"/>
-                        {% else %}
-                          alt="logo of the {{ item.data.title }} projects"/>
-                        {% endif %}
-                      </div>
-                    </a>
+                <li>
+                  <figure class="project-cards | br-m">
+                    <div class="project-cards__info">
+                      {% if item.data.img.alt %}
+
+                        <img class="project-cards__info-img" src="{{ item.data.img.src }}" alt="{{ item.data.img.alt }}"/>
+
+                      {% else %}
+
+                        <img class="project-cards__info-img" src="{{ item.data.img.src }}" alt="logo of the {{ item.data.title }} projects"/>
+
+                      {% endif %}
+
+                      <dl class="">
+                        <dt>
+                          <span class="sr-only">coreboot</span>
+                        </dt>
+                        <dd>{{ item.data.summary }}</dd>
+                      </dl>
+                    </div>
+                    <a class="project-cards__link" target="_blank" href="{{ item.data.link }}"></a>
                   </figure>
                 </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-          <div class="wrapper">
-            <h2 class="text-600 md:text-700 lg:text-800">Projects</h2>
-            <ul class="auto-grid">
-              {% for item in collections.projects %}
-                {% if not item.data.supportedByUs %}
-                  <li>
-                    <figure class="polaroid polaroid--linked polaroid--logo | br-m">
-                      <a target="_blank" href="{{ item.data.link }}">
-                        <div class="aspect-ratio-square">
-                          <img
-                        src="{{ item.data.img.src }}"
 
-                        {% if item.data.img.alt %}}
-                          alt="{{ item.data.img.alt }}"/>
-                        {% else %}
-                          alt="logo of the {{ item.data.title }} projects"/>
-                        {% endif %}
-                      </div>
-                    </a>
-                  </figure>
-                </li>
               {% endif %}
             {% endfor %}
           </ul>
         </div>
+
+        <div class="flow">
+          <h2 class="text-600 md:text-700 lg:text-800">Other Projects</h2>
+          <ul role="list" class="flow flow-space-600">
+
+            {% for item in collections.projects %}
+              {% if not item.data.supportedByUs %}
+
+                <li>
+                  <figure class="project-cards | br-m">
+                    <div class="project-cards__info">
+                      {% if item.data.img.alt %}
+
+                        <img class="project-cards__info-img" src="{{ item.data.img.src }}" alt="{{ item.data.img.alt }}"/>
+
+                      {% else %}
+
+                        <img class="project-cards__info-img" src="{{ item.data.img.src }}" alt="logo of the {{ item.data.title }} projects"/>
+
+                      {% endif %}
+
+                      <dl class="">
+                        <dt>
+                          <span class="sr-only">coreboot</span>
+                        </dt>
+                        <dd>{{ item.data.summary }}</dd>
+                      </dl>
+                    </div>
+                    <a class="project-cards__link" target="_blank" href="{{ item.data.link }}"></a>
+                  </figure>
+                </li>
+
+              {% endif %}
+            {% endfor %}
+
+          </ul>
+        </div>
       </div>
-    </section>
+    </div>
   </div>
-</div>
 </section>
