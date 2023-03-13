@@ -41,6 +41,12 @@ module.exports = (config) => {
       });
   });
 
+  config.addCollection("workstreams", (collection) => {
+    return sortByDisplayOrder(
+      collection.getFilteredByGlob("./src/workstreams/*.md")
+    );
+  });
+
   config.addCollection("projects", (collection) => {
     return sortByDisplayOrder(
       collection.getFilteredByGlob("./src/projects/*.md")

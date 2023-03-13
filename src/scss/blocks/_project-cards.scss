@@ -1,0 +1,48 @@
+.project-cards {
+  background: get-color("white");
+  padding: get-size("600");
+  box-shadow: 0 0 30px rgba((get-color("black")), 0.2),
+    0 2px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: box-shadow 0.4s ease-out, z-index 0s 0.4s linear;
+
+  @media (any-pointer: fine) and (any-hover: hover) {
+    &:hover {
+      box-shadow: 0 0 70px rgba(0, 0, 0, 0.8), 0 8px 6px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.4s ease-out, z-index 0s 0s linear;
+      z-index: 2;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: get-size("500") get-size("650");
+
+    dl {
+      flex-grow: 1;
+      flex-basis: 30ch;
+
+      dt {
+        text-align: center;
+      }
+
+      dd {
+        font-size: clamp(1rem, 0.833rem + 0.74vw, 1.5rem);
+      }
+    }
+  }
+
+  &__info-img {
+    width: min(12.25rem, 100%);
+    max-height: 10rem;
+    height: auto;
+  }
+
+  &__link {
+    position: absolute;
+    inset: 0;
+  }
+}
