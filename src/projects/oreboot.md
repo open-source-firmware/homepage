@@ -2,7 +2,7 @@
 title: "oreboot"
 img:
   src: "../images/projects/oreboot.svg"
-summary: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+summary: "oreboot is a downstream fork of coreboot, i.e. oreboot is coreboot without 'c'. oreboot is mostly written in Rust, with assembly where needed. oreboot currently only plans to support LinuxBoot payloads."
 link: "https://github.com/oreboot/oreboot"
 supportedByUs: false
 ---

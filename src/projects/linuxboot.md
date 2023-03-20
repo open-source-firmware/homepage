@@ -2,7 +2,7 @@
 title: "LinuxBoot"
 img:
   src: "../images/projects/linuxboot.svg"
-summary: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+summary: "LinuxBoot is a firmware for modern servers that replaces specific firmware functionality like the UEFI DXE phase with a Linux kernel and runtime."
 link: "https://www.linuxboot.org/"
 supportedByUs: true
 ---
