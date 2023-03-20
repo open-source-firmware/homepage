@@ -2,7 +2,7 @@
 title: "converged-security-suite"
 img:
   src: "../images/projects/css.svg"
-summary: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+summary: " The Converged Security Suite (CSS) is a set of open-source tooling to provision and test security related features in the firmware. The CSS implements all necessary tools for Intel platform security features."
 link: "https://github.com/9elements/converged-security-suite"
 supportedByUs: true
 ---
