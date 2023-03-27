@@ -1,0 +1,51 @@
+---
+title: "Ecosystem"
+layout: "layouts/content.html"
+bigLogo: false
+---
+
+<section class="panel | bg-white">
+  <div class="panel__content">
+    <div class="plain-html | flow flow-space-400">
+      <h2>{{title}}</h2>
+      <picture>
+        <source srcset="../images/ecosystem/ecosystem.webp" type="image/webp"/>
+        <img src="../images/ecosystem/ecosystem.png" alt="Portrait of OSFF Ecosystem"/>
+      </picture>
+    </div>
+  </div>
+  <div class="wrapper | flow flow-space-800">
+    <div class="flow">
+      <h4>OSF APPROVED IBV</h4>
+      <ul role="list" class="flow flow-space-600">
+
+        {% for item in collections.ecosystem %}
+          {% if item.data.ibv %}
+
+            <li>
+              <figure class="project-cards | br-m">
+                <div class="project-cards__info">
+                  {% if item.data.img.alt %}
+
+                    <img class="project-cards__info-img" src="{{ item.data.img.src }}" alt="{{ item.data.img.alt }}"/>
+
+                  {% else %}
+
+                    <img class="project-cards__info-img" src="{{ item.data.img.src }}" alt="logo of the {{ item.data.title }} company"/>
+
+                  {% endif %}
+
+                  <dl class="">
+                    <dd>"{{ item.data.summary }}"</dd>
+                  </dl>
+                </div>
+                <a class="project-cards__link" target="_blank" href="{{ item.data.link }}"></a>
+              </figure>
+            </li>
+
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
