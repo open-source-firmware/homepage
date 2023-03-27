@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "text": "Ecosystem",
+      "url": "/ecosystem/"
+    },
+    {
       "text": "Members",
       "url": "/members/"
     },
@@ -21,8 +25,8 @@
       "url": "/events/"
     },
     {
-      "text": "Documents",
-      "url": "/documents/"
+      "text": "Governance",
+      "url": "/governance/"
     },
     {
       "text": "Team",
@@ -35,6 +39,10 @@
     {
       "text": "Blog",
       "url": "https://blog.osfw.foundation/"
+    },
+    {
+      "text": "Conference",
+      "url": "https://osfc.io/"
     }
   ]
 }

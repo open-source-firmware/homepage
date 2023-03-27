@@ -9,7 +9,7 @@ location:
   - "Czech Republic"
 maps: "https://goo.gl/maps/TJ4xkC3we8xgsC7V8"
 timeline:
-  - "June 18, 08:00 - June 20, 18:00 GMT+1"
+  - "April 19, 08:00 - April 20, 18:00 GMT+1"
 summary: "The Open Source Firmware Foundation, in cooperation with the Open Compute Project will join the OCP Regional Summit in Prague! You can find us at the 9elements Cyber Security booth to the left at the entrace."
 button:
   - url: "https://www.opencompute.org/summit/regional-summit/registration"
@@ -18,4 +18,4 @@ button:
     text: "Schedule"
 ---
 
-More to come soon..
+The Open Source Firmware Foundation will be colocated with the 9elements GmbH booth and is happy to welcome you to talk about the foundation and Open-Source firmware.

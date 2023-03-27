@@ -40,10 +40,7 @@ bigLogo: false
                       {% endif %}
 
                       <dl class="">
-                        <dt>
-                          <span class="sr-only">coreboot</span>
-                        </dt>
-                        <dd>{{ item.data.summary }}</dd>
+                        <dd>"{{ item.data.summary }}"</dd>
                       </dl>
                     </div>
                     <a class="project-cards__link" target="_blank" href="{{ item.data.link }}"></a>
@@ -56,7 +53,7 @@ bigLogo: false
         </div>
 
         <div class="flow">
-          <h4>Other Projects</h4>
+          <h4>Not Affilated Projects</h4>
           <ul role="list" class="flow flow-space-600">
 
             {% for item in collections.projects %}
@@ -76,10 +73,7 @@ bigLogo: false
                       {% endif %}
 
                       <dl class="">
-                        <dt>
-                          <span class="sr-only">coreboot</span>
-                        </dt>
-                        <dd>{{ item.data.summary }}</dd>
+                        <dd>"{{ item.data.summary }}"</dd>
                       </dl>
                     </div>
                     <a class="project-cards__link" target="_blank" href="{{ item.data.link }}"></a>

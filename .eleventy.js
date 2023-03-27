@@ -53,6 +53,12 @@ module.exports = (config) => {
     );
   });
 
+  config.addCollection("ecosystem", (collection) => {
+    return sortByDisplayOrder(
+      collection.getFilteredByGlob("./src/ecosystem/*.md")
+    );
+  });
+
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {
     config.addTransform("htmlmin", htmlMinTransform);
