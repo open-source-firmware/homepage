@@ -9,7 +9,7 @@ location:
 maps: "https://goo.gl/maps/XnC9c8WYdUkN1Cam7"
 timeline:
   - "July 29, 08:00 - July 30, 18:00 GMT+8"
-summary: "The Open Source Firmware Foundation, in cooperation with COSCUP'23, the OSFF runs the open-source firmware track at this year's COSCUP conference in Taipei, Taiwan."
+summary: "The Open Source Firmware Foundation, in cooperation with COSCUP, will run the open-source firmware track at this year's COSCUP conference in Taipei, Taiwan."
 button:
   - url: "https://coscup.org/2023/en/landing"
     text: "COSCUP'23 Homepage"
