@@ -4,7 +4,7 @@ date: "2024-03-07"
 location:
   - "Google Meet"
 timeline:
-  - "March 7th, 09.00am PT / 6.00pm CET / 10.30 IST"
+  - "March 7th, 09.00am PT / 6.00pm CET / 10.30pm IST"
 summary: "Intel FSP Customization - Remove non-mandotory components in the Intel FSP"
 button:
   - url: "https://meet.google.com/cnh-uuax-cwe"
