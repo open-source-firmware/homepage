@@ -59,6 +59,12 @@ module.exports = (config) => {
     );
   });
 
+  config.addCollection("supporters", (collection) => {
+    return sortByDisplayOrder(
+      collection.getFilteredByGlob("./src/supporters/*.md")
+    );
+  });
+
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {
     config.addTransform("htmlmin", htmlMinTransform);

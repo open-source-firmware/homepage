@@ -67,27 +67,40 @@ bigLogo: true
     </div>
   </div>
 </section>
-<section class="panel | bg-primary pd-700">
+<section class="panel | bg-secondary pd-700">
   <div class="panel__content | flow flow-space-600">
     <h2 class="text-650 md:text-700 lg:text-800 panel_headline color-white">
-      Be Part of it
+      Companies using Open-Source Firmware
     </h2>
-    <p class="text-500 lg:text-600">
-      The Foundation relies on your support. If you like to be part of the
-      movement, get in contact with us and join our slack and newsletter.
-    </p>
-    <div class="cluster">
-      <div class="inner-cluster">
-        <a href="mailto:contact@opensourcefirmware.foundation" class="button button--white">
-          Get in contact with us 💜
-        </a>
-        <a target="_blank" href="https://slack.osfw.dev/" class="button button--white">
-          Join our Slack-Channel
-        </a>
-        <a target="_blank" href="https://lists.osfw.foundation/" class="button button--white">
-          Join our Mailing List
-        </a>
-      </div>
+    <div class="wrapper">
+      <ul class="auto-grid">
+        {% for item in collections.supporters %}
+          {% include
+        "partials/supporters.html" %}
+        {% endfor %}
+      </ul>
     </div>
   </div>
+</section>
+<section class="panel | bg-primary pd-700">
+     <div class="panel__content | flow flow-space-600">
+     <h2 class="text-650 md:text-700 lg:text-800 panel_headline color-white">
+     Be Part of it
+     </h2>
+     <p class="text-500 lg:text-600">
+     The Foundation relies on your support. If you like to be part of the movement, get in contact with us and join our slack and newsletter.
+     </p>
+     <div class="cluster">
+       <div class="inner-cluster">
+        <a href="mailto:contact@opensourcefirmware.foundation" class="button button--white">
+        Get in contact with us 💜
+        </a>
+        <a target="_blank" href="https://slack.osfw.dev/" class="button button--white">
+        Join our Slack-Channel
+        </a>
+        <a target="_blank" href="https://lists.osfw.foundation/" class="button button--white">
+        Join our Mailing List
+      </div>
+     </div>
+   </div>
 </section>
