@@ -4,15 +4,6 @@ metaDesc: "The Open-Source Firmware Foundation is a non-profit organisation foun
 layout: "layouts/content.html"
 bigLogo: true
 ---
-<section id="claim" class="panel">
-  <div class="panel__content | flow flow-space-600">
-    <p class="text-600 lg:text-700 leading-tight">
-      <strong>Breaking the Boundaries</strong>
-      of the Hardware Industry by Leveraging Highly Innovative
-      <strong>Open Source Firmware</strong>.
-    </p>
-  </div>
-</section>
 <section class="panel | bg-primary pd-700">
   <div class="panel__content | flow flow-space-600">
     <h2 class="text-650 md:text-700 lg:text-800 panel_headline color-white">
@@ -28,6 +19,23 @@ bigLogo: true
         "partials/event-teaser.html" %}
         {% endfor %}
       </div>
+    </div>
+  </div>
+</section>
+<section class="panel | bg-secondary pd-700">
+  <div class="panel__content | flow flow-space-600">
+    <h2 class="text-650 md:text-700 lg:text-700 panel_headline color-white">
+      Companies transforming the Ecosystem with Open-Source Firmware
+    </h2>
+    <div class="wrapper">
+      <ul class="auto-grid" style="
+        --auto-grid-min-size: 10rem;
+      ">
+        {% for item in collections.supporters %}
+          {% include
+          "partials/supporters.html" %}
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </section>
@@ -64,23 +72,6 @@ bigLogo: true
             Presentation Slides
           </a>
       </div>
-    </div>
-  </div>
-</section>
-<section class="panel | bg-secondary pd-700">
-  <div class="panel__content | flow flow-space-600">
-    <h2 class="text-650 md:text-700 lg:text-800 panel_headline color-white">
-      Companies using Open-Source Firmware
-    </h2>
-    <div class="wrapper">
-      <ul class="auto-grid" style="
-        --auto-grid-min-size: 10rem;
-      ">
-        {% for item in collections.supporters %}
-          {% include
-          "partials/supporters.html" %}
-        {% endfor %}
-      </ul>
     </div>
   </div>
 </section>
