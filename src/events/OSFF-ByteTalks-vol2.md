@@ -7,7 +7,7 @@ timeline:
   - "May 2nd, 09.00am PT / 6.00pm CET / 10.30pm IST"
 summary: "From Hardware Design to Rich OS with No Code"
 button:
-  - url: ""
+  - url: "https://meet.google.com/ufc-vhxd-hgo"
     text: "Join online!"
   - url: "https://lists.osfw.foundation/g/main/viewevent?eventid=2281419&calstart=2024-05-02"
     text: "Add to your calendar"
