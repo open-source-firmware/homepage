@@ -1,6 +1,6 @@
 ---
 name: "SysPro"
-link: "https://www.syspro.com"
+link: "https://www.sysproconsulting.com/"
 img:
   src: "../images/supporters/syspro.png"
 ---
