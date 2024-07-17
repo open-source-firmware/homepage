@@ -21,9 +21,12 @@ button:
 
 This year the OSFF will host the "Open-Source Firmware Track" at the COSCUP'24 in Taipei, Taiwan. The Conference for Open Source Coders, Users and Promoters (COSCUP) is an annual conference held by the open-source community in Taipei. It is a two day conference full with talks, and sponsor and community booths, and its format is quite similar to FOSDEM. Please go to COSCUP'24 Homepage for further information.
 
-Specially this year - we are honoured to have Arm to present Arm SBMR and Test Suite Sharing. Our Arm speakers will present an overview on SBMR specification and also some latest innovations/ implementations about it. The attendees will be able to learn how to run Arm SBMR-ACS Test Suite together with demo sessions. For further details, please visit 'Arm Special Event' to secure your seats!
+Specially this year - we are honoured to have Arm to present Arm SBMR and Test Suite Sharing. Our Arm speakers will present an overview on SBMR specification and also some latest innovations/ implementations about it. The attendees will be able to learn how to run Arm SBMR-ACS Test Suite together with demo sessions. For further details, please visit 'Arm Special Event' to secure your seats! Be aware that we do switch rooms between Day 1 and Day 2:
 
-We are thankful to be able to collaborate with our Taiwan partners to organise this together. Happy to see you there!
+- August 3rd, Room TR209
+- August 4th, Room TR410
+
+Click the button below to get the full schedule for both days.We are thankful to be able to collaborate with our Taiwan partners to organise this together. Happy to see you there!
 
 在即將到來的COSCUP‘24，OSFF 特別設置了開源韌體議程軌（Open Source Firmware Track)。COSCUP 是由台灣開放原始碼社群聯合推動的年度研討會，場面相當熱鬧。
 
