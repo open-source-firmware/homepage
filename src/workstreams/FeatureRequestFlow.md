@@ -6,9 +6,13 @@ headline: "Feature Request Flow"
 text: "Join us as we develop a streamlined process for requesting, implementing, and merging new features into open-source firmware projects."
 ---
 
-We are currently working on developing a Feature Request and Implementation Process that aims to provide a structured workflow for managing feature requests in open-source projects. This process will ensure smoother collaboration between businesses and community developers while maintaining the flexibility of open-source development.
+We are currently working on developing a Feature Request and Implementation Process that aims to provide a structured
+workflow for managing feature requests in open-source projects. This process will ensure smoother collaboration between 
+businesses and community developers while maintaining the flexibility of open-source development.
 
-The goal is to create a process that minimizes fragmentation, allowing businesses to request and implement features in a way that benefits both them and the open-source community.
+The goal is to create a process that minimizes fragmentation, allowing businesses to request and implement features in a
+way that benefits both them and the open-source community. If you want to get involved in this effort, reach out to
+[Werner Zeh](mailto:werner.zeh@osfw.foundation).
 
 ## Goals 
 
@@ -19,7 +23,7 @@ The goal is to create a process that minimizes fragmentation, allowing businesse
 
 ## Resources
 
-- [Draft Feature-Request-Flow](https://docs.google.com/document/d/1tKBaOqDjhjwVROFWRAs61VHaOeu9PXe_ehj4Sfnfado)
+- [Feature-Request-Flow-v1.0 Spec](https://drive.google.com/file/d/1su3s93xNgqy9AixDfHEWGrB_1nxYbQoz/view?usp=drive_link)
 
 ## Workstream leads
 
