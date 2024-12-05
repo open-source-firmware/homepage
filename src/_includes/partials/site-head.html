@@ -6,6 +6,7 @@
   </h1>
 </div>
 <header role="banner" class="header">
+  <a rel="me" href="https://fosstodon.org/@osff" />
   <nav class="main-nav flow" aria-label="main">
     <ul class="main-nav__list">
       {% for item in navigation.items %}
@@ -53,6 +54,13 @@
           <use xlink:href="/icons/icons.svg#slack" />
         </svg>
         <span class="sr-only">Join our Slack Channel</span>
+      </a>
+
+      <a target="_blank" href="https://fosstodon.org/@osff" class="icon-link">
+        <svg class="icon" aria-hidden="true" focusable="false">
+          <use xlink:href="/icons/icons.svg#mastodon" />
+        </svg>
+        <span class="sr-only">Follow us on Mastodon</span>
       </a>
     </ul>
   </nav>
