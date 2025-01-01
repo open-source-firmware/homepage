@@ -19,8 +19,8 @@ The Open Source Firmware Day @ RUB, held at Ruhr University Bochum, brought toge
 
 Aligned with the theme "Back to the Root," the event highlighted the importance of cultivating a new generation of open-source firmware enthusiasts. The collaborative efforts of sponsors like HGI, CASA, and the Max Planck Institute for Security and Privacy, alongside workshops led by Leon Groß and Maximilian Brune, underscored the community’s commitment to innovation and education. This initiative promises a brighter future for the open-source firmware landscape by empowering younger generations with knowledge, tools, and inspiration to shape the next 25 years of development.
 
-https://www.linkedin.com/posts/christian-walter-45588b8b_opensource-firmware-firmware-activity-7266813383587385344-V39b?utm_source=share&utm_medium=member_desktop
-https://www.linkedin.com/posts/tanleansheng_open-firmware-day-done-it-is-aligned-activity-7266828899030908928-11hU?utm_source=share&utm_medium=member_desktop
+[Linkedin - #opensource hashtag#firmware day at Ruhr University Bochum! posted by Christian Walter](https://www.linkedin.com/posts/christian-walter-45588b8b_opensource-firmware-firmware-activity-7266813383587385344-V39b?utm_source=share&utm_medium=member_desktop)
+[Linkedin - Open. Firmware. Day. posted by Lean Sheng Tan](https://www.linkedin.com/posts/tanleansheng_open-firmware-day-done-it-is-aligned-activity-7266828899030908928-11hU?utm_source=share&utm_medium=member_desktop)
 
 Sponsors:
 - Fachschaft IT-Sicherheit an der Ruhr-Universität Bochum
