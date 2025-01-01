@@ -15,7 +15,7 @@ button:
     text: "FOSDEM'25 Homepage"
 ---
 
-Like the previous years, the Open Source Firmware Foundation will kick off the year at FOSDEM. You can find us at the coreboot booth in the U building, Room UB4.136. Whether you want to chat with us or just get some stickers, we welcome everyone.
+Like the previous years, the Open Source Firmware Foundation will kick off the year at FOSDEM. You can find us at the "coreboot / flashprog / EDKII / OpenBMC" stand on K2-A-10. Whether you want to chat with us or just get some stickers, we welcome everyone.
 
 FOSDEM is a totally free event for Free and Open Source developers from around the world to meet. Since 2000, FOSDEM has been organized every year.
 
